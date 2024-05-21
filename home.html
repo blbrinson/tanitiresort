@@ -8,148 +8,84 @@
 
 	<!-- Bootstrap CSS CDN  -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 	<!-- Main CSS -->
-	<link rel="stylesheet" href="home.css">
+	<link rel="stylesheet" href="./assets/css/home.css">
+
+	<!-- Raleway font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet">
 </head>
 
 <body>
+	<!-- ====== Title ====== -->
+	<section id="title" class="text-center text-bg-dark">
 
-	<!-- ====== Home ====== -->
-	<section id="home">
-	</section><!-- end home  -->
+		<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+			<header class="mb-auto">
+				<div class="container flex-column col-md-10 col-lg-12">
+					<h3 class="mb-3">Taniti</h3>
 
-
-	<!-- ====== Header ====== -->
-	<section>
-		<div id="header">
-			<div id="div-img_gf">
-				<img id="island-beach-sunset-palm" src="island-beach-sunset-palm.png"
-					srcset="island-beach-sunset-palm.png 1x">
-	
-			</div>
-			<div id="hero-title">
-				<svg class="div_gi">
-					<rect id="div_gi" rx="0" ry="0" x="0" y="0" width="1260" height="305">
-					</rect>
-				</svg>
-				<div id="hero-txt">
-					<div id="Plan_your_perfect_getaway">
-						<span>Plan your perfect getaway</span>
-					</div>
+					<navbar id="navbar" class="navbar justify-content-center">
+						<ul class="nav">
+							<li class="nav-item"><a class="nav-link fw-bold py-1 px-lg-3 active" aria-current="page"
+									href="#">Home</a></li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+									aria-expanded="false">
+									Things to know</a>
+								<ul class="dropdown-menu dropdown-menu-dark">
+									<li class="dropdown-item"><a class="nav-link fw-bold py-1 px-3" href="#">About</a>
+									</li>
+									<li class="dropdown-item"><a class="nav-link fw-bold py-1 px-3"
+											href="#">Promotions</a></li>
+									<li class="dropdown-item"><a class="nav-link fw-bold py-1 px-3" href="#">Contact</a>
+									</li>
+									<li class="dropdown-item"><a class="nav-link fw-bold py-1 px-3" href="#">FAQs</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+									aria-expanded="false">
+									Things to do</a>
+								<ul class="dropdown-menu dropdown-menu-dark">
+									<li class="dropdown-item"><a class="nav-link fw-bold py-1 px-3" href="#">Lodging</a>
+									</li>
+									<li class="dropdown-item"><a class="nav-link fw-bold py-1 px-3" href="#">Dining</a>
+									</li>
+									<li class="dropdown-item"><a class="nav-link fw-bold py-1 px-3" href="#">Transit</a>
+									</li>
+									<li class="dropdown-item"><a class="nav-link fw-bold py-1 px-3"
+											href="#">Experiences</a></li>
+								</ul>
+							</li>
+							<li class="nav-item"><a class="nav-link fw-bold py-1 px-3" href="#">Book Now!</a></li>
+						</ul>
+					</navbar>
 				</div>
-				<div onclick="application.goToTargetView(event)" id="btn-book-orange_gl" class="btn_book_orange">
-					<svg class="Path_1_gm" viewBox="0 0 252 71">
-						<path id="Path_1_gm"
-							d="M 21 0 L 231 0 C 242.5979766845703 0 252 9.402019500732422 252 21 L 252 50 C 252 61.59798049926758 242.5979766845703 71 231 71 L 21 71 C 9.402019500732422 71 0 61.59798049926758 0 50 L 0 21 C 0 9.402019500732422 9.402019500732422 0 21 0 Z">
-						</path>
-					</svg>
-					<div id="Book_now_gn">
-						<span>Book now!</span>
-					</div>
-				</div>
-			</div>
-			<div id="navbar" class="navbar">
-				<svg class="div_gp">
-					<rect id="div_gp" rx="0" ry="0" x="0" y="0" width="1400" height="124">
-					</rect>
-				</svg>
-				<svg class="blur_background">
-					<rect id="blur_background" rx="0" ry="0" x="0" y="0" width="1260" height="124">
-					</rect>
-				</svg>
-				<div id="links">
-					<div id="col-1-promo">
-						<svg class="Rectangle_2">
-							<rect id="Rectangle_2" rx="0" ry="0" x="0" y="0" width="140" height="36">
-							</rect>
-						</svg>
-						<div onclick="application.goToTargetView(event)" id="Promotions">
-							<span>Promotions</span>
-						</div>
-					</div>
-					<div id="col-2-about">
-						<svg class="Rectangle_2_gw">
-							<rect id="Rectangle_2_gw" rx="0" ry="0" x="0" y="0" width="140" height="36">
-							</rect>
-						</svg>
-						<div onclick="application.goToTargetView(event)" id="About_gx">
-							<span>About</span>
-						</div>
-					</div>
-					<div id="col-3-lodging">
-						<svg class="Rectangle_2_gz">
-							<rect id="Rectangle_2_gz" rx="0" ry="0" x="0" y="0" width="140" height="36">
-							</rect>
-						</svg>
-						<div onclick="application.goToTargetView(event)" id="Lodging_g">
-							<span>Lodging</span>
-						</div>
-					</div>
-					<div id="col-4-dining">
-						<svg class="Rectangle_2_g">
-							<rect id="Rectangle_2_g" rx="0" ry="0" x="0" y="0" width="140" height="36">
-							</rect>
-						</svg>
-						<div onclick="application.goToTargetView(event)" id="Dining_g">
-							<span>Dining</span>
-						</div>
-					</div>
-					<div id="col-5-transit">
-						<svg class="Rectangle_2_ha">
-							<rect id="Rectangle_2_ha" rx="0" ry="0" x="0" y="0" width="140" height="36">
-							</rect>
-						</svg>
-						<div onclick="application.goToTargetView(event)" id="Transit_g">
-							<span>Transit</span>
-						</div>
-					</div>
-					<div id="col-6-experiences">
-						<svg class="Rectangle_2_hb">
-							<rect id="Rectangle_2_hb" rx="0" ry="0" x="0" y="0" width="140" height="36">
-							</rect>
-						</svg>
-						<div onclick="application.goToTargetView(event)" id="Experiences_g">
-							<span>Experiences</span>
-						</div>
-					</div>
-					<div id="col-7-book">
-						<svg class="Rectangle_2_hc">
-							<rect id="Rectangle_2_hc" rx="0" ry="0" x="0" y="0" width="140" height="36">
-							</rect>
-						</svg>
-						<div onclick="application.goToTargetView(event)" id="Book_Now">
-							<span>Book Now!</span>
-						</div>
-					</div>
-					<div id="col-8-contact">
-						<svg class="Rectangle_2_he">
-							<rect id="Rectangle_2_he" rx="0" ry="0" x="0" y="0" width="140" height="36">
-							</rect>
-						</svg>
-						<div onclick="application.goToTargetView(event)" id="Contact_Us">
-							<span>Contact Us</span>
-						</div>
-					</div>
-					<div id="col-9-faq">
-						<svg class="Rectangle_2_hh">
-							<rect id="Rectangle_2_hh" rx="0" ry="0" x="0" y="0" width="140" height="36">
-							</rect>
-						</svg>
-						<div onclick="application.goToTargetView(event)" id="FAQS">
-							<span>FAQS</span>
-						</div>
-					</div>
-				</div>
-				<div id="title_hj">
-					<div id="Taniti">
-						<span>Taniti</span>
-					</div>
-				</div>
-			</div>
+			</header>
 		</div>
-	</section><!-- end title -->
+
+		<main class="px-3">
+			<h1>Cover your page.</h1>
+			<p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download,
+				edit the text, and add your own fullscreen background photo to make it your own.</p>
+			<p class="lead">
+				<a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white">Learn more</a>
+			</p>
+		</main>
+
+		<footer class="mt-auto text-white-50">
+			<p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a
+					href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
+		</footer>
+		</div>
+
+	</section>
+	<!-- End title -->
 
 
 
@@ -177,7 +113,7 @@
 							</rect>
 						</svg>
 						<img id="ent-heli-tour" src="ent-heli-tour.png" srcset="ent-heli-tour.png 1x">
-		
+
 					</div>
 					<div id="caption">
 						<svg class="div_fb">
@@ -200,7 +136,7 @@
 							</rect>
 						</svg>
 						<img id="locals-example" src="locals-example.png" srcset="locals-example.png 1x">
-		
+
 					</div>
 					<div id="caption_fc">
 						<svg class="div_fe">
@@ -223,7 +159,7 @@
 							</rect>
 						</svg>
 						<img id="architecture" src="architecture.png" srcset="architecture.png 1x">
-		
+
 					</div>
 					<div id="caption_fk">
 						<svg class="div_fl">
@@ -247,7 +183,7 @@
 							</rect>
 						</svg>
 						<img id="ent-volcano" src="ent-volcano.png" srcset="ent-volcano.png 1x">
-		
+
 					</div>
 					<div id="caption_fs">
 						<svg class="div_ft">
@@ -270,7 +206,7 @@
 							</rect>
 						</svg>
 						<img id="sights-rainforest" src="sights-rainforest.png" srcset="sights-rainforest.png 1x">
-		
+
 					</div>
 					<div id="caption_f">
 						<svg class="div_f">
@@ -293,7 +229,7 @@
 							</rect>
 						</svg>
 						<img id="island-beach" src="island-beach.png" srcset="island-beach.png 1x">
-		
+
 					</div>
 					<div id="caption_ga">
 						<svg class="div_gc">
@@ -409,7 +345,7 @@
 					</rect>
 				</svg>
 				<img id="transit-bus" src="transit-bus.png" srcset="transit-bus.png 1x">
-	
+
 			</div>
 			<div id="col-2_du">
 				<svg class="div_dv">
@@ -538,11 +474,7 @@
 		</div>
 	</section>
 	<!-- end Food and Entertainment -->
-
-
-
-
-
+	<datalist></datalist>
 
 	<!-- ====== Agent ====== -->
 	<section>
@@ -552,7 +484,7 @@
 					<rect id="div" rx="0" ry="0" x="0" y="0" width="479" height="795">
 					</rect>
 				</svg>
-	
+
 				<div id="contact_cf">
 					<div id="Please_allow_a_few_business_da">
 						<span>*Please allow a few business days for our agents to get back with you via email</span>
@@ -576,7 +508,7 @@
 			</div>
 			<div id="col-2_cm">
 				<img id="div-img" src="div-img.png" srcset="div-img.png 1x">
-	
+
 				<div id="email">
 					<svg class="div_cp">
 						<rect id="div_cp" rx="0" ry="0" x="0" y="0" width="648.542" height="90">
@@ -637,191 +569,217 @@
 
 
 	<!-- ====== Footer ====== -->
-		<!-- sitemap -->
-		<section id="sitemap">
-			<div id="site-links">
-				<div id="promo_t">
-					<div onclick="application.goToTargetView(event)" id="Promotions_">
-						<span>Promotions </span>
-					</div>
-					<div id="Holiday_Calendar">
-						<span>Holiday Calendar</span>
-					</div>
-					<div id="Weddings__Honeymoons">
-						<span>Weddings & Honeymoons</span>
-					</div>
-					<div id="Business">
-						<span>Business</span>
-					</div>
-					<div id="Sports">
-						<span>Sports</span>
-					</div>
+	<!-- sitemap -->
+	<section id="sitemap">
+		<div id="site-links">
+			<div id="promo_t">
+				<div onclick="application.goToTargetView(event)" id="Promotions_">
+					<span>Promotions </span>
 				</div>
-
-				<div id="about_z">
-					<div onclick="application.goToTargetView(event)" id="About">
-						<span>About</span>
-					</div>
-					<div id="Natural_Experiences">
-						<span>Natural Experiences</span>
-					</div>
-					<div id="Indoor_Experiences">
-						<span>Indoor Experiences</span>
-					</div>
-					<div id="Outdoor_Experiences">
-						<span>Outdoor Experiences</span>
-					</div>
-					<div id="Our_Locals">
-						<span>Our Locals</span>
-					</div>
+				<div id="Holiday_Calendar">
+					<span>Holiday Calendar</span>
 				</div>
-				<div id="lodging_">
-					<div onclick="application.goToTargetView(event)" id="Lodging">
-						<span>Lodging</span>
-					</div>
-					<div id="Hotels">
-						<span>Hotels</span>
-					</div>
-					<div id="Bed-n-Breakfast">
-						<span>Bed-n-Breakfast</span>
-					</div>
-					<div id="Beach_Houses">
-						<span>Beach Houses</span>
-					</div>
-					<div id="Private_Homes">
-						<span>Private Homes</span>
-					</div>
+				<div id="Weddings__Honeymoons">
+					<span>Weddings & Honeymoons</span>
 				</div>
-				<div id="transit_bb">
-					<div onclick="application.goToTargetView(event)" id="Transit">
-						<span>Transit</span>
-					</div>
-					<div id="Car_Rental">
-						<span>Car Rental</span>
-					</div>
-					<div id="Taxis">
-						<span>Taxis</span>
-					</div>
-					<div id="Walking">
-						<span>Walking</span>
-					</div>
-					<div id="Bicycles">
-						<span>Bicycles</span>
-					</div>
-					<div id="Car_Share">
-						<span>Car Share</span>
-					</div>
-					<div id="ShuttlesPublic_Transit">
-						<span>Shuttles/Public Transit</span>
-					</div>
+				<div id="Business">
+					<span>Business</span>
 				</div>
-				<div id="dining_bj">
-					<div onclick="application.goToTargetView(event)" id="Dining">
-						<span>Dining</span>
-					</div>
-					<div id="Restaurants">
-						<span>Restaurants</span>
-					</div>
-					<div id="Super_Markets">
-						<span>Super Markets</span>
-					</div>
-					<div id="Grocery">
-						<span>Grocery</span>
-					</div>
-					<div id="Convenience">
-						<span>Convenience</span>
-					</div>
-				</div>
-				<div id="experiences_">
-					<div onclick="application.goToTargetView(event)" id="Experiences">
-						<span>Experiences</span>
-					</div>
-					<div id="Nature">
-						<span>Nature</span>
-					</div>
-					<div id="Beaches">
-						<span>Beaches</span>
-					</div>
-					<div id="Rainforests">
-						<span>Rainforests</span>
-					</div>
-					<div id="Volcano">
-						<span>Volcano</span>
-					</div>
-					<div id="Indoor_Venues">
-						<span>Indoor Venues</span>
-					</div>
-					<div id="PubsMicrobrewery">
-						<span>Pubs/Microbrewery</span>
-					</div>
-					<div id="Movie_Theater">
-						<span>Movie Theater</span>
-					</div>
-					<div id="Arcade">
-						<span>Arcade</span>
-					</div>
-					<div id="Art_Gallery">
-						<span>Art Gallery</span>
-					</div>
-					<div id="Bowling">
-						<span>Bowling</span>
-					</div>
-					<div id="Nightclub">
-						<span>Nightclub</span>
-					</div>
-					<div id="Guided_Activitites">
-						<span>Guided Activitites</span>
-					</div>
-					<div id="Native_Architecture">
-						<span>Native Architecture</span>
-					</div>
-					<div id="Fish_Tours">
-						<span>Fish Tours</span>
-					</div>
-					<div id="Helicopter_Tour">
-						<span>Helicopter Tour</span>
-					</div>
-					<div id="BoatBus_Tours">
-						<span>Boat/Bus Tours</span>
-					</div>
-					<div id="Ziplining">
-						<span>Ziplining</span>
-					</div>
-					<div id="Snorkeling">
-						<span>Snorkeling</span>
-					</div>
-					<div id="Future_Experiences">
-						<span>Future Experiences</span>
-					</div>
-					<div id="Golf">
-						<span>Golf</span>
-					</div>
+				<div id="Sports">
+					<span>Sports</span>
 				</div>
 			</div>
-			<div id="Taniti_Sitemap">
-				<span>Taniti Sitemap</span>
+
+			<div id="about_z">
+				<div onclick="application.goToTargetView(event)" id="About">
+					<span>About</span>
+				</div>
+				<div id="Natural_Experiences">
+					<span>Natural Experiences</span>
+				</div>
+				<div id="Indoor_Experiences">
+					<span>Indoor Experiences</span>
+				</div>
+				<div id="Outdoor_Experiences">
+					<span>Outdoor Experiences</span>
+				</div>
+				<div id="Our_Locals">
+					<span>Our Locals</span>
+				</div>
+			</div>
+			<div id="lodging_">
+				<div onclick="application.goToTargetView(event)" id="Lodging">
+					<span>Lodging</span>
+				</div>
+				<div id="Hotels">
+					<span>Hotels</span>
+				</div>
+				<div id="Bed-n-Breakfast">
+					<span>Bed-n-Breakfast</span>
+				</div>
+				<div id="Beach_Houses">
+					<span>Beach Houses</span>
+				</div>
+				<div id="Private_Homes">
+					<span>Private Homes</span>
+				</div>
+			</div>
+			<div id="transit_bb">
+				<div onclick="application.goToTargetView(event)" id="Transit">
+					<span>Transit</span>
+				</div>
+				<div id="Car_Rental">
+					<span>Car Rental</span>
+				</div>
+				<div id="Taxis">
+					<span>Taxis</span>
+				</div>
+				<div id="Walking">
+					<span>Walking</span>
+				</div>
+				<div id="Bicycles">
+					<span>Bicycles</span>
+				</div>
+				<div id="Car_Share">
+					<span>Car Share</span>
+				</div>
+				<div id="ShuttlesPublic_Transit">
+					<span>Shuttles/Public Transit</span>
+				</div>
+			</div>
+			<div id="dining_bj">
+				<div onclick="application.goToTargetView(event)" id="Dining">
+					<span>Dining</span>
+				</div>
+				<div id="Restaurants">
+					<span>Restaurants</span>
+				</div>
+				<div id="Super_Markets">
+					<span>Super Markets</span>
+				</div>
+				<div id="Grocery">
+					<span>Grocery</span>
+				</div>
+				<div id="Convenience">
+					<span>Convenience</span>
+				</div>
+			</div>
+			<div id="experiences_">
+				<div onclick="application.goToTargetView(event)" id="Experiences">
+					<span>Experiences</span>
+				</div>
+				<div id="Nature">
+					<span>Nature</span>
+				</div>
+				<div id="Beaches">
+					<span>Beaches</span>
+				</div>
+				<div id="Rainforests">
+					<span>Rainforests</span>
+				</div>
+				<div id="Volcano">
+					<span>Volcano</span>
+				</div>
+				<div id="Indoor_Venues">
+					<span>Indoor Venues</span>
+				</div>
+				<div id="PubsMicrobrewery">
+					<span>Pubs/Microbrewery</span>
+				</div>
+				<div id="Movie_Theater">
+					<span>Movie Theater</span>
+				</div>
+				<div id="Arcade">
+					<span>Arcade</span>
+				</div>
+				<div id="Art_Gallery">
+					<span>Art Gallery</span>
+				</div>
+				<div id="Bowling">
+					<span>Bowling</span>
+				</div>
+				<div id="Nightclub">
+					<span>Nightclub</span>
+				</div>
+				<div id="Guided_Activitites">
+					<span>Guided Activitites</span>
+				</div>
+				<div id="Native_Architecture">
+					<span>Native Architecture</span>
+				</div>
+				<div id="Fish_Tours">
+					<span>Fish Tours</span>
+				</div>
+				<div id="Helicopter_Tour">
+					<span>Helicopter Tour</span>
+				</div>
+				<div id="BoatBus_Tours">
+					<span>Boat/Bus Tours</span>
+				</div>
+				<div id="Ziplining">
+					<span>Ziplining</span>
+				</div>
+				<div id="Snorkeling">
+					<span>Snorkeling</span>
+				</div>
+				<div id="Future_Experiences">
+					<span>Future Experiences</span>
+				</div>
+				<div id="Golf">
+					<span>Golf</span>
+				</div>
 			</div>
 		</div>
-		</section>
+		<div id="Taniti_Sitemap">
+			<span>Taniti Sitemap</span>
+		</div>
+		</div>
+	</section>
 
-		<!-- footer -->
-		<section id="footer">
-			<div class="footer">
-				<svg class="div-pink">
-					<rect id="div-pink" rx="0" ry="0" x="0" y="0" width="1400" height="800">
-					</rect>
-				</svg>
-				<div id="All_Images_courtesy_of_unsplas">
-					<span>All Images courtesy of unsplash.com</span>
-				</div>
-				<div id="Taniti__2022_All_Rights_Reserv">
-					<span>Taniti © 2022 All Rights Reserved</span>
-				</div>
-		</section><!-- End Footer -->
+	<!-- footer -->
+	<section id="footer">
+		<div class="footer">
+			<svg class="div-pink">
+				<rect id="div-pink" rx="0" ry="0" x="0" y="0" width="1400" height="800">
+				</rect>
+			</svg>
+			<div id="All_Images_courtesy_of_unsplas">
+				<span>All Images courtesy of unsplash.com</span>
+			</div>
+			<div id="Taniti__2022_All_Rights_Reserv">
+				<span>Taniti © 2022 All Rights Reserved</span>
+			</div>
 
-	
+			<footer class="mastfoot mt-auto">
+				<div class="inner">
+					<p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a
+							href="https://twitter.com/mdo">@mdo</a>.</p>
+				</div>
+			</footer>
+	</section><!-- End Footer -->
+
+
 	<!-- Main js -->
 	<!-- <script id="applicationScript" type="text/javascript" src="home.js"></script> -->
+	<!-- sticky nav js -->
+	<script>
+		window.onscroll = function () { myFunction() };
+
+		var navbar = document.getElementById("navbar");
+		var sticky = navbar.offsetTop;
+
+		function myFunction() {
+			if (window.pageYOffset >= sticky) {
+				navbar.classList.add("sticky")
+			} else {
+				navbar.classList.remove("sticky");
+			}
+		}
+	</script>
+	<!-- Bootstrap js CDN -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+		crossorigin="anonymous"></script>
 </body>
 
 </html>
