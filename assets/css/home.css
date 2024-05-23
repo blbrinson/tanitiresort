@@ -2,28 +2,43 @@
 	font-family: "Raleway"
 }
 
+/* ======== HOME PAGE ============ 
+--------------------------------*/
+
 #title {
 	background-image : url(/assets/img/hero/index.png);
 	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
-.sticky {
-	position: fixed;
-	top: 0;
-	width: 100%;
-  }
-  
-  .sticky + .content {
-	padding-top: 60px;
-  }
-.nav-title {
-	display: 5;
-	/* color: #fff9b2;  */
+/* navbar */
+#home-nav {
+	background-color: #ecac5d;
+}
+#title .dropdown-item {
+	color: #fff9b2;
+}
+#title .nav-link{
+	color: #3f0713;
+	font-weight: bold;
+}
+#title .active{
+	color: #fff9b2;
+}
+/* end navbar */
+
+#title h1 {
+ 	color: #fff9b2;
 }
 
-.nav-link {
-	color: #ecac5d;;
-	font-weight: light;
+
+@media (min-width: 576px) {
+    .navbar-expand-sm .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+        justify-content: space-around;
+    }
 }
 
 

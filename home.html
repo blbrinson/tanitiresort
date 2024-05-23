@@ -15,8 +15,7 @@
 	<!-- Raleway font -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"  rel="stylesheet">
 </head>
 
 <body>
@@ -26,62 +25,57 @@
 		<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
 			<header class="mb-auto">
 				<div class="container flex-column col-md-10 col-lg-12">
-					<h3 class="mb-3">Taniti</h3>
 
-					<navbar id="navbar" class="navbar justify-content-center">
-						<ul class="nav">
-							<li class="nav-item"><a class="nav-link fw-bold py-1 px-lg-3 active" aria-current="page"
-									href="#">Home</a></li>
-							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-									aria-expanded="false">
-									Things to know</a>
-								<ul class="dropdown-menu dropdown-menu-dark">
-									<li class="dropdown-item"><a class="nav-link fw-bold py-1 px-3" href="#">About</a>
-									</li>
-									<li class="dropdown-item"><a class="nav-link fw-bold py-1 px-3"
-											href="#">Promotions</a></li>
-									<li class="dropdown-item"><a class="nav-link fw-bold py-1 px-3" href="#">Contact</a>
-									</li>
-									<li class="dropdown-item"><a class="nav-link fw-bold py-1 px-3" href="#">FAQs</a>
-									</li>
+					<nav id="home-nav" class="navbar fixed-top col-10 mx-auto navbar-expand-sm rounded">
+						<div class="container-fluid">
+						  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						  </button>
+				  
+						  <div class="collapse navbar-collapse d-lg-flex" id="navbarsExample11">
+							<a class="navbar-brand col-lg-3 me-0 fw-bolder fs-4" href="#">Taniti</a>
+							<ul class="navbar-nav justify-content-center">
+							  <li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#">Home</a></li>
+							  <li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+									Things to Know</a>
+								<ul class="dropdown-menu bg-dark">
+								  <li><a class="dropdown-item" href="#">Promotions</a></li>
+								  <li><a class="dropdown-item" href="#">About</a></li>
+								  <li><a class="dropdown-item" href="#">Contact</a></li>
+								  <li><a class="dropdown-item" href="#">FAQs</a></li>
 								</ul>
-							</li>
-							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-									aria-expanded="false">
-									Things to do</a>
-								<ul class="dropdown-menu dropdown-menu-dark">
-									<li class="dropdown-item"><a class="nav-link fw-bold py-1 px-3" href="#">Lodging</a>
-									</li>
-									<li class="dropdown-item"><a class="nav-link fw-bold py-1 px-3" href="#">Dining</a>
-									</li>
-									<li class="dropdown-item"><a class="nav-link fw-bold py-1 px-3" href="#">Transit</a>
-									</li>
-									<li class="dropdown-item"><a class="nav-link fw-bold py-1 px-3"
-											href="#">Experiences</a></li>
+							  </li>
+							  <li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+									Things to Do</a>
+								<ul class="dropdown-menu bg-dark">
+								  <li><a class="dropdown-item" href="#">Dining</a></li>
+								  <li><a class="dropdown-item" href="#">Transit</a></li>
+								  <li><a class="dropdown-item" href="#">Experiences</a></li>
+								  <li><a class="dropdown-item" href="#">Lodging</a></li>
 								</ul>
-							</li>
-							<li class="nav-item"><a class="nav-link fw-bold py-1 px-3" href="#">Book Now!</a></li>
-						</ul>
-					</navbar>
+							  </li>
+							</ul>
+							<div class="d-lg-flex col-lg-3 justify-content-lg-end">
+							  <button class="btn btn-outline-dark">Book Now!</button>
+							</div>
+						  </div>
+						</div>
+					  </nav>
 				</div>
 			</header>
+			<div class="my-5 pb-5">
+				<div class="p-5 text-center bg-body-transparent">
+				  <div class="container py-5">
+					<h1 class="fw-bolder display-5">Plan your perfect getaway</h1>
+				  </div>
+				</div>
+			  </div>
 		</div>
 
-		<main class="px-3">
-			<h1>Cover your page.</h1>
-			<p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download,
-				edit the text, and add your own fullscreen background photo to make it your own.</p>
-			<p class="lead">
-				<a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white">Learn more</a>
-			</p>
-		</main>
-
-		<footer class="mt-auto text-white-50">
-			<p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a
-					href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
-		</footer>
+	
 		</div>
 
 	</section>
