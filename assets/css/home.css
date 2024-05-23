@@ -41,6 +41,23 @@
     }
 }
 
+/* ======== About section ======== */
+
+#about {
+	background-color: #ff5d5d;
+}
+
+.about-img {
+}
+
+.about-caption {
+	color: #fff9b2;
+	font-size: 1rem;
+}
+
+.about-heading {
+	color: #3f0713;
+}
 
 /* colors involved */
 /* color: #ff5d5d;
