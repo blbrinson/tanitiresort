@@ -1,7 +1,9 @@
 * {
 	font-family: "Raleway"
 }
-
+.section-title {
+	color: #3f0713;
+}
 /* ======== HOME PAGE ============ 
 --------------------------------*/
 
@@ -38,7 +40,13 @@
         display: flex !important;
         flex-basis: auto;
         justify-content: space-around;
-    }
+    }	
+}
+
+@media (max-width: 575px) {
+	#title h1 {
+		font-size: xx-large;
+	}
 }
 
 /* ======== About section ======== */
@@ -58,6 +66,62 @@
 .about-heading {
 	color: #3f0713;
 }
+
+@media (max-width: 575px) {
+	.about-img {
+		width: 75%;
+		margin-left: 12.5%;
+	}
+	.about-caption{
+		font-size: 1.2rem;
+	}
+	.about-heading {
+		width: 75%;
+		margin-left: 12.5%;
+	}
+}
+
+
+/* ======== Lodging ======== */
+
+#lodging {
+	background-color: #ecac5d;
+}
+
+
+
+#lodging h2 {
+	color: #fff9b2;
+}
+
+#lodging p {
+	color: #3f0713;
+}
+#lodging .btn-primary {
+	background-color:#fff9b2 !important;
+	color: #3f0713;
+}
+#lodging .btn-primary:hover{
+background-color: #ff5d5d !important;
+}
+/* ======== Transportation ======== */
+
+#transportation .btn-primary {
+		background-color:#fff9b2 !important;
+		color: #3f0713;
+	}
+#transportation .btn-primary:hover{
+	background-color: #ecac5d !important;
+}
+
+
+/* ======== Food and Entertainment ======== */
+/* ======== Agent/Faqs/contact ======== */
+/* ======== Sitemap ======== */
+/* ======== Footer ======== */
+
+
+
 
 /* colors involved */
 /* color: #ff5d5d;
