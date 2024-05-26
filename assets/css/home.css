@@ -1,18 +1,25 @@
+/* ======== Home page ============ 
+--------------------------------*/
 * {
 	font-family: "Raleway"
 }
 .section-title {
 	color: #3f0713;
 }
-/* ======== HOME PAGE ============ 
---------------------------------*/
 
+
+/* ======== Title ============ 
+--------------------------------*/
 #title {
 	background-image : url(/assets/img/hero/index.png);
 	height: 100vh;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+#title h1 {
+	color: #fff9b2;
+}
+
 
 /* navbar */
 #home-nav {
@@ -30,11 +37,8 @@
 }
 /* end navbar */
 
-#title h1 {
- 	color: #fff9b2;
-}
 
-
+/* responsiveness */
 @media (min-width: 576px) {
     .navbar-expand-sm .navbar-collapse {
         display: flex !important;
@@ -49,51 +53,45 @@
 	}
 }
 
-/* ======== About section ======== */
 
+/* ======== About section ========
+--------------------------------*/
 #about {
 	background-color: #ff5d5d;
 }
-
-.about-img {
-}
-
-.about-caption {
+#about p {
 	color: #fff9b2;
 	font-size: 1rem;
 }
-
-.about-heading {
+#about h3 {
 	color: #3f0713;
 }
 
+
+/* responsiveness */
 @media (max-width: 575px) {
-	.about-img {
+	#about img {
 		width: 75%;
 		margin-left: 12.5%;
 	}
-	.about-caption{
+	#about p{
 		font-size: 1.2rem;
 	}
-	.about-heading {
+	#about h3 {
 		width: 75%;
 		margin-left: 12.5%;
 	}
 }
 
 
-/* ======== Lodging ======== */
-
+/* ======== Lodging ======== 
+---------------------------*/
 #lodging {
 	background-color: #ecac5d;
 }
-
-
-
 #lodging h2 {
 	color: #fff9b2;
 }
-
 #lodging p {
 	color: #3f0713;
 }
@@ -104,23 +102,92 @@
 #lodging .btn-primary:hover{
 background-color: #ff5d5d !important;
 }
-/* ======== Transportation ======== */
 
+/* ====== Transportation ======= 
+-------------------------------*/
+#transportation h2 {
+	color: #ecac5d;
+}
 #transportation .btn-primary {
-		background-color:#fff9b2 !important;
-		color: #3f0713;
-	}
+	background-color:#fff9b2 !important;
+	color: #3f0713;
+}
 #transportation .btn-primary:hover{
 	background-color: #ecac5d !important;
 }
 
+/* === Food and Entertainment ===
+--------------------------------*/
+#food-ent {
+	background-color: #ecac5d;
+}
+#food-ent h2 {
+	color: #fff9b2;
+}
 
-/* ======== Food and Entertainment ======== */
+#food-ent p {
+	color: #3f0713;
+}
+#food-ent .btn-primary {
+	background-color:#fff9b2 !important;
+	color: #3f0713;
+}
+#food-ent .btn-primary:hover{
+	background-color: #ff5d5d !important;
+}
+
 /* ======== Agent/Faqs/contact ======== */
-/* ======== Sitemap ======== */
+#agent .agent{
+	background-image: url(/assets/img/agent/agent1.png);
+	background-size: cover;
+}
+.agent-primary {
+	color: #fff9b2;
+}
+.agent-secondary {
+	color:#ff5d5d;
+}
+#agent p {
+	color: #3f0713;
+}
+#email {
+	color: #ff5d5d !important;
+}
+#agent .btn-primary {
+	background-color: #ff5d5d;
+	color: #fff9b2;
+}
+#agent .btn-primary:hover {
+	background-color: #fff9b2;
+	color: #3f0713;
+}
+#agent .btn-secondary {
+	background-color: #fff9b2;
+	color: #ff5d5d;
+}
+#agent .btn-secondary:hover {
+	background-color: #ff5d5d;
+	color: #3f0713;
+}
+.agent-contact {
+	color: #3f0713;
+}
+.disclaimer {
+	font-size: xx-small;
+}
 /* ======== Footer ======== */
-
-
+#footer {
+	background-color: #3f0713;
+}
+#footer h5 {
+	color: #fff9b2;
+}
+.link-secondary{
+	color: #ecac5d !important;
+}
+#footer small {
+	color: #fff !important;
+}
 
 
 /* colors involved */
