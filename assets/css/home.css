@@ -1,11 +1,13 @@
 /* ======== Home page ============ 
 --------------------------------*/
 * {
-	font-family: "Raleway"
+	font-family: "Raleway";
 }
 .section-title {
 	color: #3f0713;
 }
+
+
 
 
 /* ======== Title ============ 
@@ -137,6 +139,8 @@ background-color: #ff5d5d !important;
 }
 
 /* ======== Agent/Faqs/contact ======== */
+#agent {
+}
 #agent .agent{
 	background-image: url(/assets/img/agent/agent1.png);
 	background-size: cover;
@@ -175,6 +179,7 @@ background-color: #ff5d5d !important;
 .disclaimer {
 	font-size: xx-small;
 }
+
 /* ======== Footer ======== */
 #footer {
 	background-color: #3f0713;
