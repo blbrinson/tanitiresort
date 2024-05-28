@@ -1,459 +1,329 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="utf-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>contact</title>
-<link rel="stylesheet" type="text/css" id="applicationStylesheet" href="contact.css"/>
-<script id="applicationScript" type="text/javascript" src="contact.js"></script>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+
+	<!-- Bootstrap CSS CDN  -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="./assets/css/home.css">
+
+	<!-- Raleway font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet">
 </head>
+
 <body>
-<div id="contact">
-	<div id="footer_bgk" class="footer">
-		<svg class="div-pink_bgl">
-			<rect id="div-pink_bgl" rx="0" ry="0" x="0" y="0" width="1400" height="800">
-			</rect>
-		</svg>
-		<div id="All_Images_courtesy_of_unsplas_bgm">
-			<span>All Images courtesy of unsplash.com</span>
-		</div>
-		<div id="Taniti__2022_All_Rights_Reserv_bgn">
-			<span>Taniti © 2022 All Rights Reserved</span>
-		</div>
-		<div id="site-links_bgo">
-			<div id="promo_bgp">
-				<div onclick="application.goToTargetView(event)" id="Promotions__bgq">
-					<span>Promotions </span>
+	<!-- ============= Title  -->
+	<section id="title" class="text-center text-bg-dark">
+
+		<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+			<header class="mb-auto">
+				<div class="container flex-column col-md-11 col-lg-12">
+
+					<nav id="title-nav" class="navbar fixed-top col-11 mx-auto navbar-expand-sm rounded">
+						<div class="container-fluid">
+							<button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+								data-bs-target="#navbarsExample11" aria-controls="navbarsExample11"
+								aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+
+							<div class="collapse navbar-collapse d-lg-flex" id="navbarsExample11">
+								<a class="navbar-brand col-lg-3 me-0 fw-bolder fs-4" href="#">Taniti</a>
+								<ul class="navbar-nav justify-content-center">
+									<li class="nav-item">
+										<a class="nav-link active" aria-current="page" href="#">Home</a>
+									</li>
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+											aria-expanded="false">
+											Things to Know</a>
+										<ul class="dropdown-menu  bg-body-primary border-0">
+											<li><a class="dropdown-item" href="#">Promotions</a></li>
+											<li><a class="dropdown-item" href="#">About</a></li>
+											<li><a class="dropdown-item" href="#">Contact</a></li>
+											<li><a class="dropdown-item" href="#">FAQs</a></li>
+										</ul>
+									</li>
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+											aria-expanded="false">
+											Things to Do</a>
+										<ul class="dropdown-menu bg-body-primary border-0">
+											<li><a class="dropdown-item" href="#">Dining</a></li>
+											<li><a class="dropdown-item" href="#">Transit</a></li>
+											<li><a class="dropdown-item" href="#">Experiences</a></li>
+											<li><a class="dropdown-item" href="#">Lodging</a></li>
+										</ul>
+									</li>
+								</ul>
+								<div class="d-lg-flex col-lg-3 justify-content-lg-end">
+									<button class="btn btn-outline-dark">Book Now!</button>
+								</div>
+							</div>
+						</div>
+					</nav>
 				</div>
-				<div id="Holiday_Calendar_bgr">
-					<span>Holiday Calendar</span>
-				</div>
-				<div id="Weddings__Honeymoons_bgs">
-					<span>Weddings & Honeymoons</span>
-				</div>
-				<div id="Business_bgt">
-					<span>Business</span>
-				</div>
-				<div id="Sports_bgu">
-					<span>Sports</span>
-				</div>
-			</div>
-			<div id="about_bgv">
-				<div onclick="application.goToTargetView(event)" id="About_bgw">
-					<span>About</span>
-				</div>
-				<div id="Natural_Experiences_bgx">
-					<span>Natural Experiences</span>
-				</div>
-				<div id="Indoor_Experiences_bgy">
-					<span>Indoor Experiences</span>
-				</div>
-				<div id="Outdoor_Experiences_bgz">
-					<span>Outdoor Experiences</span>
-				</div>
-				<div id="Our_Locals_bg">
-					<span>Our Locals</span>
-				</div>
-			</div>
-			<div id="lodging_bg">
-				<div onclick="application.goToTargetView(event)" id="Lodging_bg">
-					<span>Lodging</span>
-				</div>
-				<div id="Hotels_bg">
-					<span>Hotels</span>
-				</div>
-				<div id="Bed-n-Breakfast_bg">
-					<span>Bed-n-Breakfast</span>
-				</div>
-				<div id="Beach_Houses_bg">
-					<span>Beach Houses</span>
-				</div>
-				<div id="Private_Homes_bg">
-					<span>Private Homes</span>
-				</div>
-			</div>
-			<div id="transit_bg">
-				<div onclick="application.goToTargetView(event)" id="Transit_bg">
-					<span>Transit</span>
-				</div>
-				<div id="Car_Rental_bg">
-					<span>Car Rental</span>
-				</div>
-				<div id="Taxis_bha">
-					<span>Taxis</span>
-				</div>
-				<div id="Walking_bhb">
-					<span>Walking</span>
-				</div>
-				<div id="Bicycles_bhc">
-					<span>Bicycles</span>
-				</div>
-				<div id="Car_Share_bhd">
-					<span>Car Share</span>
-				</div>
-				<div id="ShuttlesPublic_Transit_bhe">
-					<span>Shuttles/Public Transit</span>
-				</div>
-			</div>
-			<div id="dining_bhf">
-				<div onclick="application.goToTargetView(event)" id="Dining_bhg">
-					<span>Dining</span>
-				</div>
-				<div id="Restaurants_bhh">
-					<span>Restaurants</span>
-				</div>
-				<div id="Super_Markets_bhi">
-					<span>Super Markets</span>
-				</div>
-				<div id="Grocery_bhj">
-					<span>Grocery</span>
-				</div>
-				<div id="Convenience_bhk">
-					<span>Convenience</span>
-				</div>
-			</div>
-			<div id="experiences__bhl">
-				<div onclick="application.goToTargetView(event)" id="Experiences_bhm">
-					<span>Experiences</span>
-				</div>
-				<div id="Nature_bhn">
-					<span>Nature</span>
-				</div>
-				<div id="Beaches_bho">
-					<span>Beaches</span>
-				</div>
-				<div id="Rainforests_bhp">
-					<span>Rainforests</span>
-				</div>
-				<div id="Volcano_bhq">
-					<span>Volcano</span>
-				</div>
-				<div id="Indoor_Venues_bhr">
-					<span>Indoor Venues</span>
-				</div>
-				<div id="PubsMicrobrewery_bhs">
-					<span>Pubs/Microbrewery</span>
-				</div>
-				<div id="Movie_Theater_bht">
-					<span>Movie Theater</span>
-				</div>
-				<div id="Arcade_bhu">
-					<span>Arcade</span>
-				</div>
-				<div id="Art_Gallery_bhv">
-					<span>Art Gallery</span>
-				</div>
-				<div id="Bowling_bhw">
-					<span>Bowling</span>
-				</div>
-				<div id="Nightclub_bhx">
-					<span>Nightclub</span>
-				</div>
-				<div id="Guided_Activitites_bhy">
-					<span>Guided Activitites</span>
-				</div>
-				<div id="Native_Architecture_bhz">
-					<span>Native Architecture</span>
-				</div>
-				<div id="Fish_Tours_bh">
-					<span>Fish Tours</span>
-				</div>
-				<div id="Helicopter_Tour_bh">
-					<span>Helicopter Tour</span>
-				</div>
-				<div id="BoatBus_Tours_bh">
-					<span>Boat/Bus Tours</span>
-				</div>
-				<div id="Ziplining_bh">
-					<span>Ziplining</span>
-				</div>
-				<div id="Snorkeling_bh">
-					<span>Snorkeling</span>
-				</div>
-				<div id="Future_Experiences_bh">
-					<span>Future Experiences</span>
-				</div>
-				<div id="Golf_bh">
-					<span>Golf</span>
-				</div>
-			</div>
-		</div>
-		<div id="Taniti_Sitemap_bh">
-			<span>Taniti Sitemap</span>
-		</div>
-	</div>
-	<div id="agent_bh">
-		<div id="col-2_bh">
-			<svg class="div_bia">
-				<rect id="div_bia" rx="0" ry="0" x="0" y="0" width="479" height="795">
-				</rect>
-			</svg>
-			<div id="contact_bib">
-				<div id="Please_allow_a_few_business_da_bic">
-					<span>*Please allow a few business days for our agents to get back with you via email</span>
-				</div>
-				<div id="emailusvisittaniticom_bid">
-					<span>emailus@visittaniti.com</span>
-				</div>
-				<div id="n_55-555-4321_bie">
-					<span>555-555-4321</span>
-				</div>
-				<div id="n_55-555-1234_bif">
-					<span>555-555-1234</span>
-				</div>
-				<div id="Contact__big">
-					<span>Contact </span>
-				</div>
-			</div>
-			<div onclick="application.goToTargetView(event)" id="FAQs_bih">
-				<span>FAQs</span>
-			</div>
-		</div>
-		<div id="col-2_bii">
-			<img id="div-img_bij" src="div-img_bij.png" srcset="div-img_bij.png 1x">
-				
-			<div id="email_bik">
-				<svg class="div_bil">
-					<rect id="div_bil" rx="0" ry="0" x="0" y="0" width="648.542" height="90">
-					</rect>
-				</svg>
-				<div id="form-email-entry_bim">
-					<svg class="Rectangle_1_bin">
-						<rect id="Rectangle_1_bin" rx="30.5" ry="30.5" x="0" y="0" width="655" height="61">
-						</rect>
-					</svg>
-					<div id="Enter_your_email_to_get_starte_bio">
-						<span>Enter your email to get started.</span>
-					</div>
-				</div>
-				<div id="btn-submit_bip" class="btn_submit">
-					<svg class="Path_2_biq" viewBox="0 0 150 48.158">
-						<path id="Path_2_biq" d="M 24.07894897460938 0 L 125.9210586547852 0 C 139.219482421875 0 150 10.78051090240479 150 24.07894897460938 C 150 37.37738800048828 139.219482421875 48.15789794921875 125.9210586547852 48.15789794921875 L 24.07894897460938 48.15789794921875 C 10.78051090240479 48.15789794921875 0 37.37738800048828 0 24.07894897460938 C 0 10.78051090240479 10.78051090240479 0 24.07894897460938 0 Z">
-						</path>
-					</svg>
-					<div id="Submit_bir">
-						<span>Submit</span>
+			</header>
+			<div class="my-5 pb-5">
+				<div class="p-5 text-center bg-body-transparent">
+					<div class="container py-5">
+						<h1 class="fw-bolder display-5">Plan your perfect getaway</h1>
 					</div>
 				</div>
 			</div>
-			<div id="desc_bis">
-				<svg class="div_bit">
-					<rect id="div_bit" rx="0" ry="0" x="0" y="0" width="740" height="410">
-					</rect>
-				</svg>
-				<div id="We_are_available_7_days_a_week_biu">
-					<span>We are available 7 days a week to help you <br/>plan your perfect getaway with the people <br/>that matter most! Give us a call or send an <br/>email and let’s make your dreams come true!</span>
+		</div>
+
+
+		</div>
+
+	</section>
+	<!-- End title -->
+	<!-- ============= About -->
+	<section id="about">
+		<div class="container pt-5">
+			<h3 class="text-center py-3 fs-4 lh-2">
+				Taniti is a small, tropical island in the Pacific that offers beaches, lush tropical rainforests, a
+				small active volcano, and so much more!
+			</h3>
+			<div class="row">
+				<div class="col-sm-4 g-3 py-3">
+					<div class="card bg-transparent border-0">
+						<img class="card-img-top mb-3" src="/assets/img/home/island-beach.png" alt="">
+						<div class="card-body">
+							<p class="card-text text-center">Experience both sandy and rocky beaches all
+								around</p>
+						</div>
+					</div>
 				</div>
-				<div id="Let_our_agents_help_biv">
-					<span>Let our agents help!</span>
+				<div class="col-sm-4 g-3 py-3 ms-auto">
+					<div class="card bg-transparent border-0" style="">
+						<img class="card-img-top mb-3" src="/assets/img/home/rainforest.png" alt="">
+						<div class="card-body">
+							<p class="card-text text-center">Walk on clouds and get lost in the rainforest
+							</p>
+						</div>
+					</div>
 				</div>
-				<div id="We_look_forward_to_your_visit_biw">
-					<span>We look forward to your visit!</span>
+				<div class="col-sm-4 g-3 py-3 ms-auto">
+					<div class="card bg-transparent border-0" style="">
+						<img class="card-img-top mb-3" src="/assets/img/home/volcano.png" alt="">
+						<div class="card-body">
+							<p class="card-text text-center">Hikers rejoice! Taniti is home to an active
+								volcano</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4 g-3 py-3 ms-auto">
+					<div class="card bg-transparent border-0" style="">
+						<img class="card-img-top mb-3" src="/assets/img/home/architecture.png" alt="">
+						<div class="card-body">
+							<p class="card-text text-center">
+								Visit and experience Taniti's native architecture in between
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 g-3 py-3 ms-auto">
+					<div class="card bg-transparent border-0" style="">
+						<img class="card-img-top mb-3" src="/assets/img/home/locals.png" alt="">
+						<div class="card-body">
+							<p class="card-text text-center">
+								Come meet and shop with our locals. They welcome all visitors
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 g-3 py-3 ms-auto">
+					<div class="card bg-transparent border-0" style="">
+						<img class="card-img-top mb-3" src="/assets/img/home/heli-tour.png" alt="">
+						<div class="card-body">
+							<p class="card-text text-center">
+								Many ways to get around the island from boat, car to bus or even helicopter
+							</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div id="Booking_form">
-		<svg class="div-orange_biy">
-			<rect id="div-orange_biy" rx="0" ry="0" x="0" y="0" width="1400" height="800">
-			</rect>
-		</svg>
-		<div id="col-2_biz">
-			<svg class="div_bi">
-				<rect id="div_bi" rx="0" ry="0" x="0" y="0" width="630" height="667">
-				</rect>
-			</svg>
-			<svg class="form-background">
-				<rect id="form-background" rx="38" ry="38" x="0" y="0" width="530" height="567">
-				</rect>
-			</svg>
-			<svg class="comments">
-				<rect id="comments" rx="20" ry="20" x="0" y="0" width="450" height="157">
-				</rect>
-			</svg>
-			<div id="Additional_comments_for_agent">
-				<span>Additional comments for agent…</span>
-			</div>
-			<div id="Party_size">
-				<span>Party size</span>
-			</div>
-			<svg class="Line_1" viewBox="0 0 450 4">
-				<path id="Line_1" d="M 0 0 L 450 0">
-				</path>
-			</svg>
-			<div id="First_name">
-				<span>First name</span>
-			</div>
-			<div id="Book_Now_bi">
-				<span>Book Now!</span>
-			</div>
-			<svg class="Line_2" viewBox="0 0 450 4">
-				<path id="Line_2" d="M 0 0 L 450 0">
-				</path>
-			</svg>
-			<div id="Last_name">
-				<span>Last name</span>
-			</div>
-			<svg class="Line_3" viewBox="0 0 450 4">
-				<path id="Line_3" d="M 0 0 L 450 0">
-				</path>
-			</svg>
-			<div id="Phone_Number">
-				<span>Phone Number</span>
-			</div>
-			<svg class="Line_4" viewBox="0 0 450 4">
-				<path id="Line_4" d="M 0 0 L 450 0">
-				</path>
-			</svg>
-			<div id="Email">
-				<span>Email</span>
-			</div>
-			<svg class="Line_5" viewBox="0 0 450 4">
-				<path id="Line_5" d="M 0 0 L 450 0">
-				</path>
-			</svg>
-		</div>
-		<div id="col-2_bjf">
-			<svg class="div_bjg">
-				<rect id="div_bjg" rx="0" ry="0" x="0" y="0" width="630" height="667">
-				</rect>
-			</svg>
-			<div id="btn-submit_bjh" class="btn_submit">
-				<svg class="Path_2_bji" viewBox="0 0 296 95">
-					<path id="Path_2_bji" d="M 47.51578903198242 0 L 248.4842071533203 0 C 274.7264404296875 0 296 21.26647186279297 296 47.5 C 296 73.73353576660156 274.7264404296875 95 248.4842071533203 95 L 47.51578903198242 95 C 21.27354049682617 95 0 73.73353576660156 0 47.5 C 0 21.26647186279297 21.27354049682617 0 47.51578903198242 0 Z">
-					</path>
-				</svg>
-				<div id="Submit_bjj">
-					<span>Submit</span>
+	</section>
+	<!-- End About -->
+	<!-- ============= Lodging -->
+	<section id="lodging">
+		<div class="container col-xxl-8 px-4 py-5">
+			<h1 class="section-title text-center fw-bold display-4">Lodging</h1>
+			<div class="row flex-lg-row align-items-center g-5 py-5">
+				<div class="col-10 col-sm-8 col-lg-6">
+					<img src="/assets/img/home/lodging.png" class="d-block mx-lg-auto img-fluid" alt="Taniti resort"
+						width="350" height="auto" loading="lazy">
 				</div>
-			</div>
-			<div id="Please_complete_this_form_and_">
-				<span>Please complete this form and an agent will be in touch with you soon!</span>
-			</div>
-		</div>
-		<div id="Contact_an_Agent">
-			<span>Contact an Agent</span>
-		</div>
-	</div>
-	<div id="header_bjm">
-		<img id="island-yellow-palms" src="island-yellow-palms.png" srcset="island-yellow-palms.png 1x">
-			
-		<div id="title_bjo">
-			<svg class="div_bjp">
-				<rect id="div_bjp" rx="0" ry="0" x="0" y="0" width="1260" height="278">
-				</rect>
-			</svg>
-			<div id="Contact_one_of_our_agents_to_h">
-				<span>Contact one of our agents to help you get started on your adventure</span>
-			</div>
-			<div id="Contact_and_Booking_info">
-				<span>Contact and Booking info</span>
-			</div>
-		</div>
-		<div id="navbar_bjs" class="navbar">
-			<svg class="div_bjt">
-				<rect id="div_bjt" rx="0" ry="0" x="0" y="0" width="1400" height="124">
-				</rect>
-			</svg>
-			<svg class="blur_background_bju">
-				<rect id="blur_background_bju" rx="0" ry="0" x="0" y="0" width="1260" height="124">
-				</rect>
-			</svg>
-			<div id="links_bjv">
-				<div id="col-1-promo_bjw">
-					<svg class="Rectangle_2_bjx">
-						<rect id="Rectangle_2_bjx" rx="0" ry="0" x="0" y="0" width="140" height="36">
-						</rect>
-					</svg>
-					<div onclick="application.goToTargetView(event)" id="Promotions_bjy">
-						<span>Promotions</span>
+				<div class="col-lg-6">
+					<h2 class="fw-bold lh-1 mb-3">
+						Find the perfect night's sleep</h2>
+					<p class="lead">
+						Taniti has a wide variety of hotels. There are many small, family-owned hotels and a growing
+						number of bed and breakfasts, to luxurious resorts. All types of lodging are strictly regulated
+						and regularly inspected by the Tanitian government.</p>
+					<div class="d-grid gap-2 d-md-flex justify-content-md-start">
+						<button type="button" class="btn btn-primary border-secondary btn-lg px-4">Learn more</button>
 					</div>
-				</div>
-				<div id="col-2-about_bjz">
-					<svg class="Rectangle_2_bj">
-						<rect id="Rectangle_2_bj" rx="0" ry="0" x="0" y="0" width="140" height="36">
-						</rect>
-					</svg>
-					<div onclick="application.goToTargetView(event)" id="About_bj">
-						<span>About</span>
-					</div>
-				</div>
-				<div id="col-3-lodging_bj">
-					<svg class="Rectangle_2_bka">
-						<rect id="Rectangle_2_bka" rx="0" ry="0" x="0" y="0" width="140" height="36">
-						</rect>
-					</svg>
-					<div onclick="application.goToTargetView(event)" id="Lodging_bj">
-						<span>Lodging</span>
-					</div>
-				</div>
-				<div id="col-4-dining_bj">
-					<svg class="Rectangle_2_bkb">
-						<rect id="Rectangle_2_bkb" rx="0" ry="0" x="0" y="0" width="140" height="36">
-						</rect>
-					</svg>
-					<div onclick="application.goToTargetView(event)" id="Dining_bj">
-						<span>Dining</span>
-					</div>
-				</div>
-				<div id="col-5-transit_bj">
-					<svg class="Rectangle_2_bkc">
-						<rect id="Rectangle_2_bkc" rx="0" ry="0" x="0" y="0" width="140" height="36">
-						</rect>
-					</svg>
-					<div onclick="application.goToTargetView(event)" id="Transit_bka">
-						<span>Transit</span>
-					</div>
-				</div>
-				<div id="col-6-experiences_bkb">
-					<svg class="Rectangle_2_bkd">
-						<rect id="Rectangle_2_bkd" rx="0" ry="0" x="0" y="0" width="140" height="36">
-						</rect>
-					</svg>
-					<div onclick="application.goToTargetView(event)" id="Experiences_bkd">
-						<span>Experiences</span>
-					</div>
-				</div>
-				<div id="col-7-book_bke">
-					<svg class="Rectangle_2_bkf">
-						<rect id="Rectangle_2_bkf" rx="0" ry="0" x="0" y="0" width="140" height="36">
-						</rect>
-					</svg>
-					<div id="Book_Now_bkg">
-						<span>Book Now!</span>
-					</div>
-				</div>
-				<div id="col-8-contact_bkh">
-					<svg class="Rectangle_2_bki">
-						<rect id="Rectangle_2_bki" rx="0" ry="0" x="0" y="0" width="140" height="36">
-						</rect>
-					</svg>
-					<div id="Contact_Us_bkj">
-						<span>Contact Us</span>
-					</div>
-				</div>
-				<div id="col-9-faq_bkk">
-					<svg class="Rectangle_2_bkl">
-						<rect id="Rectangle_2_bkl" rx="0" ry="0" x="0" y="0" width="140" height="36">
-						</rect>
-					</svg>
-					<div onclick="application.goToTargetView(event)" id="FAQS_bkm">
-						<span>FAQS</span>
-					</div>
-				</div>
-			</div>
-			<div id="title_bkn">
-				<svg class="div_bko">
-					<rect id="div_bko" rx="0" ry="0" x="0" y="0" width="1260" height="74">
-					</rect>
-				</svg>
-				<div onclick="application.goToTargetView(event)" id="Taniti_bkp">
-					<span>Taniti</span>
 				</div>
 			</div>
 		</div>
-	</div>
-</div>
+	</section><!-- End Lodging -->
+	<!-- ============= Transportation -->
+	<section id="transportation">
+		<div class="container col-xxl-8 px-4 py-5">
+			<h1 class="section-title text-center fw-bold display-4">
+				Transportation</h1>
+			<div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+				<div class="col-10 col-sm-8 col-lg-6">
+					<img src="/assets/img/home/transit.png" class="d-block mx-lg-auto img-fluid" alt="Taniti resort"
+						width="350" height="auto" loading="lazy">
+				</div>
+				<div class="col-lg-6">
+					<h2 class="fw-bold lh-1 mb-3">
+						Get around any way you want</h2>
+					<p class="lead">
+						Almost all visitors arrive by air, though some arrive on cruise ships. Taniti offers public and
+						private transportation options to get around once you're here. Meriton Landing is very easy to
+						explore on foot but there is always a taxi available!
+					</p>
+					<div class="d-grid gap-2 d-md-flex justify-content-md-start">
+						<button type="button" class="btn btn-primary border-secondary btn-lg px-4">
+							Learn more</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- End Transportation -->
+	<!-- ============= Food and Entertainment -->
+	<section id="food-ent">
+		<div class="container col-xxl-8 px-4 py-5">
+			<h1 class="section-title text-center fw-bold display-4">
+				Food and Entertainment</h1>
+			<div class="row flex-lg-row align-items-center g-5 py-5">
+				<div class="col-10 col-sm-8 col-lg-6">
+					<img src="/assets/img/home/food-ent.png" class="d-block mx-lg-auto img-fluid" alt="Taniti resort"
+						width="350" height="auto" loading="lazy">
+				</div>
+				<div class="col-lg-6">
+					<h2 class="fw-bold lh-1 mb-3">
+						Fine experiences. Fine cuisine!</h2>
+					<p class="lead">
+						Taniti has 10 different restaurants to choose from. There are also grocery options to explore as
+						well. Pair those options with a massive selection of indoor and outdoor activities, you may not
+						want to leave!</p>
+					<div class="d-grid gap-2 d-md-flex justify-content-md-start">
+						<button type="button" class="btn btn-primary border-secondary btn-lg px-4">
+							Learn more</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end Food & Ent -->
+	<!-- ============= Agent ====== -->
+	<section id="agent">
+		<div class="col-12 overflow-hidden">
+			<div class="row flex-lg-row">
+				<div class="agent col-sm-8 px-5 py-5">
+					<h3 class="agent-primary fw-bold ps-4">
+						We look forward to your visit!</h3>
+					<h3 class="agent-secondary fw-bold mb-5 ps-4">
+						Let our agents help!</h3>
+					<p class="lead fw-semibold mb-5 p-4 col-10">
+						We are available 7 days a week to help you plan your perfect getaway with the people that matter
+						most. Give us a call or send an email and let's make your dreams come true!
+					</p>
+					<div class="col-10">
+						<input type="email" class="form-control rounded-5 align-content-start mb-3" id="email"
+							placeholder="Enter your email to get started.">
+						<div class="invalid-feedback">
+							Please enter a valid email address.
+						</div>
+					</div>
+					<button class="btn btn-primary btn-md px-4 rounded-5 border-secondary-subtle"
+						type="submit">Submit</button>
+					<button class="btn btn-secondary btn-md ms-5 px-4 rounded-5 border-secondary-subtle"
+						type="button">More info</button>
+				</div>
+
+				<div class="agent-contact col-4 py-5 text-center">
+					<div class="container">
+						<h3 class="agent-secondary fw-bold mb-5">
+							FAQs</h3>
+						<h3 class="agent-contact fw-bold">
+							Contact</h3>
+						<p class="agent-contact my-3">555-555-1234<br>(Primary)</p>
+						<p class="agent-contact my-3">555-555-4321<br>(Secondary)</p>
+						<p class="agent-contact"><a href="mailto:some@email.com" target="_blank"
+								class="btn btn-primary border-0 px-5">
+								Email Us!</a></p>
+						<p class="agent-contact disclaimer mt-4">
+							*Please allow a few business days for our agents to get back with you via email.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- End Agent -->
+	<!-- ============= Footer ====== -->
+	<section id="footer">
+		<footer class="container pt-5 text-center">
+			<div class="row">
+			  <div class="col-6 col-md">
+				<h5>Experiences</h5>
+				<ul class="list-unstyled text-small">
+				  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Nature</a></li>
+				  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Indoor Venues</a></li>
+				  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Guided Activities</a></li>
+				  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Future Experiences</a></li>
+				</ul>
+			  </div>
+			  <div class="col-6 col-md">
+				<h5>Information</h5>
+				<ul class="list-unstyled text-small">
+				  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Transit</a></li>
+				  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Dining</a></li>
+				  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Lodging</a></li>
+				</ul>
+			  </div>
+			  <div class="col-6 col-md">
+				<h5>Contact</h5>
+				<ul class="list-unstyled text-small">
+				  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Business</a></li>
+				  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Promotions</a></li>
+				  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">About us</a></li>
+				</ul>
+			  </div>
+			</div>
+			<div class="container mt-5 pb-2 text-center">
+				<div class="col-12 col-md">
+					<small class="d-block text-body-secondary">Taniti © 2022–2024 All Rights Reserved. All images courtesy of unsplash.com</small>
+				  </div>
+			  </div>
+		  </footer>
+	</section>
+	<!-- End Footer -->
+
+
+	<!-- Main js -->
+	<!-- <script id="applicationScript" type="text/javascript" src="home.js"></script> -->
+
+	</script>
+	<!-- Bootstrap js CDN -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+		crossorigin="anonymous"></script>
 </body>
+
 </html>

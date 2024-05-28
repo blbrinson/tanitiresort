@@ -1,4 +1,4 @@
-/* ======== Home page ============ 
+/* ===================== Home page  
 --------------------------------*/
 * {
 	font-family: "Raleway";
@@ -10,7 +10,7 @@
 
 
 
-/* ======== Title ============ 
+/* ========================= Title 
 --------------------------------*/
 #title {
 	background-image : url(/assets/img/hero/index.png);
@@ -23,12 +23,25 @@
 }
 
 
-/* navbar */
-#home-nav {
+/* ================ Navigation bar 
+--------------------------------*/
+#title-nav {
+	background-color: #ecac5d;
+}
+#title .navbar-brand {
+	color: #ff5d5d;
+}
+#title .navbar-toggler {
+	color: #fff9b2 !important;
+}
+.hamburger {
+	color: #ecac5d !important;
+}
+#title .dropdown-menu {
 	background-color: #ecac5d;
 }
 #title .dropdown-item {
-	color: #fff9b2;
+	color: #3f0713;
 }
 #title .nav-link{
 	color: #3f0713;
@@ -37,7 +50,14 @@
 #title .active{
 	color: #fff9b2;
 }
-/* end navbar */
+#title .btn-outline-dark {
+	border-color: #3f0713;
+}
+#title .btn-outline-dark:hover {
+	border-color: #ff5d5d;
+	background-color: #ff5d5d;
+	color: #ecac5d;
+}
 
 
 /* responsiveness */
@@ -182,13 +202,13 @@ background-color: #ff5d5d !important;
 
 /* ======== Footer ======== */
 #footer {
-	background-color: #3f0713;
+	background-color: #ff5d5d;
 }
 #footer h5 {
 	color: #fff9b2;
 }
 .link-secondary{
-	color: #ecac5d !important;
+	color: #3f0713 !important;
 }
 #footer small {
 	color: #fff !important;
