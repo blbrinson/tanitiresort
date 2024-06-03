@@ -109,10 +109,16 @@
 #about .card-text {
 	color: #3f0713 !important;
 }
-
+#about .card {
+	height: 500px;
+}
 
 /* responsiveness */
-
+@media (max-width: 767px) {
+	#about .card {
+		height: fit-content;
+	}
+}
 
 /* ======== Agent/Faqs/contact ======== */
 #agent {
