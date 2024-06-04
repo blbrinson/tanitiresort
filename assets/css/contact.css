@@ -1,4 +1,4 @@
-/* ===================== Home page  
+/* ========================== Body  
 --------------------------------*/
 * {
 	font-family: "Raleway";
@@ -6,14 +6,13 @@
 .section-title {
 	color: #3f0713;
 }
-
-
-
-
+h3 {
+	color: #3f0713;
+}
 /* ========================= Title 
 --------------------------------*/
 #title {
-	background-image : url(/assets/img/hero/index.png);
+	background-image : url(/assets/img/hero/contact.png);
 	height: 100vh;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -21,8 +20,9 @@
 #title h1 {
 	color: #fff9b2;
 }
-
-
+#title p {
+	color: #ecac5d;
+}
 /* ================ Navigation bar 
 --------------------------------*/
 #title-nav {
@@ -68,101 +68,44 @@
         justify-content: space-around;
     }	
 }
-
 @media (max-width: 575px) {
 	#title h1 {
 		font-size: xx-large;
 	}
 }
-
-
-/* ======== About section ========
+/* ================== Contact Form
 --------------------------------*/
-#about {
-	background-color: #ff5d5d;
+#contact {
+	background-color: #ecac5d;
 }
-#about p {
-	color: #fff9b2;
-	font-size: 1rem;
-}
-#about h3 {
+#contact h4{
 	color: #3f0713;
+	margin-bottom: 10rem;
+}
+#contact .btn-primary {
+	background-color: #ff5d5d;
+	color: #fff9b2;
+}
+#contact .btn-primary:hover {
+	background-color: #fff9b2;
+	color: #3f0713;
+}
+#contact p {
+	color: #3f0713 !important;
+}
+#contact .form-control {
+	border-color: #ff5d5d !important;
+}
+#contact ::placeholder {
+	color: #3f0713;
+	opacity: 50%;
 }
 
 
 /* responsiveness */
-@media (max-width: 575px) {
-	#about img {
-		width: 75%;
-		margin-left: 12.5%;
-	}
-	#about p{
-		font-size: 1.2rem;
-	}
-	#about h3 {
-		width: 75%;
-		margin-left: 12.5%;
-	}
-}
-
-
-/* ======== Lodging ======== 
----------------------------*/
-#lodging {
-	background-color: #ecac5d;
-}
-#lodging h2 {
-	color: #fff9b2;
-}
-#lodging p {
-	color: #3f0713;
-}
-#lodging .btn-primary {
-	background-color:#fff9b2 !important;
-	color: #3f0713;
-}
-#lodging .btn-primary:hover{
-background-color: #ff5d5d !important;
-}
-
-/* ====== Transportation ======= 
--------------------------------*/
-#transportation h2 {
-	color: #ecac5d;
-}
-#transportation .btn-primary {
-	background-color:#fff9b2 !important;
-	color: #3f0713;
-}
-#transportation .btn-primary:hover{
-	background-color: #ecac5d !important;
-}
-
-/* === Food and Entertainment ===
---------------------------------*/
-#food-ent {
-	background-color: #ecac5d;
-}
-#food-ent h2 {
-	color: #fff9b2;
-}
-
-#food-ent p {
-	color: #3f0713;
-}
-#food-ent .btn-primary {
-	background-color:#fff9b2 !important;
-	color: #3f0713;
-}
-#food-ent .btn-primary:hover{
-	background-color: #ff5d5d !important;
-}
-
-/* ======== Agent/Faqs/contact ======== */
-#agent {
-}
+/* ======== Agent/Faqs/Contact ======== */
 #agent .agent{
-	background-image: url(/assets/img/agent/agent1.png);
+	background-image: url(/assets/img/agent/agent.png);
 	background-size: cover;
 }
 .agent-primary {
