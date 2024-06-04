@@ -13,13 +13,13 @@
 /* ========================= Title 
 --------------------------------*/
 #title {
-	background-image : url(/assets/img/hero/index.png);
+	background-image : url(/assets/img/hero/lodging.png);
 	height: 100vh;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 #title h1 {
-	color: #fff9b2;
+	color: #fff;
 }
 
 
@@ -76,93 +76,45 @@
 }
 
 
-/* ======== About section ========
+/* ======================= Resorts
 --------------------------------*/
-#about {
-	background-color: #ff5d5d;
+#resorts h1 {
+ 	color: #3f0713;
 }
-#about p {
-	color: #fff9b2;
-	font-size: 1rem;
+#resorts h3 {
+	color: #ff5d5d !important;
 }
-#about h3 {
-	color: #3f0713;
+#resorts img {
+	min-width: 300px;
 }
-
-
-/* responsiveness */
-@media (max-width: 575px) {
-	#about img {
-		width: 75%;
-		margin-left: 12.5%;
-	}
-	#about p{
-		font-size: 1.2rem;
-	}
-	#about h3 {
-		width: 75%;
-		margin-left: 12.5%;
-	}
-}
-
-
-/* ======== Lodging ======== 
----------------------------*/
-#lodging {
+/* =========================== BNB
+--------------------------------*/
+#bnb {
 	background-color: #ecac5d;
 }
-#lodging h2 {
-	color: #fff9b2;
+#bnb h3 {
+	color: #fff !important;
 }
-#lodging p {
-	color: #3f0713;
-}
-#lodging .btn-primary {
-	background-color:#fff9b2 !important;
-	color: #3f0713;
-}
-#lodging .btn-primary:hover{
-background-color: #ff5d5d !important;
-}
-
-/* ====== Transportation ======= 
--------------------------------*/
-#transportation h2 {
-	color: #ecac5d;
-}
-#transportation .btn-primary {
-	background-color:#fff9b2 !important;
-	color: #3f0713;
-}
-#transportation .btn-primary:hover{
-	background-color: #ecac5d !important;
-}
-
-/* === Food and Entertainment ===
+/* ================== Beach Houses
 --------------------------------*/
-#food-ent {
+#beach h3 {
+	color: #ff5d5d !important;
+}
+#beach img {
+	min-width: 300px;
+}
+/* ================ Private Houses
+--------------------------------*/
+#privacy {
 	background-color: #ecac5d;
 }
-#food-ent h2 {
-	color: #fff9b2;
+#privacy h3 {
+	color: #fff !important;
 }
 
-#food-ent p {
-	color: #3f0713;
-}
-#food-ent .btn-primary {
-	background-color:#fff9b2 !important;
-	color: #3f0713;
-}
-#food-ent .btn-primary:hover{
-	background-color: #ff5d5d !important;
-}
-
-/* ======== Agent/Faqs/contact ======== */
-#agent {
-}
+/* ======== Agent/Faqs/Contact ======== */
 #agent .agent{
-	background-image: url(/assets/img/agent/agent1.png);
+	background-image: url(/assets/img/agent/agent3.png);
 	background-size: cover;
 }
 .agent-primary {
