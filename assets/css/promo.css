@@ -12,13 +12,13 @@ h3 {
 /* ========================= Title 
 --------------------------------*/
 #title {
-	background-image : url(/assets/img/hero/promo.png);
+	background-image : url(/assets/img/hero/faq.png);
 	height: 100vh;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 #title h1 {
-	color: #fff9b2;
+	color: #fff;
 }
 /* ================ Navigation bar 
 --------------------------------*/
@@ -70,29 +70,20 @@ h3 {
 		font-size: xx-large;
 	}
 }
-/* ==================== Promotions
+/* ========================== FAQs
 --------------------------------*/
-#promo {
-	background-color: #ff5d5d;
+#faq h2 {
+	color: #ff5d5d !important;
 }
 
-#promo p {
-	color:#fff9b2;
+#faq p {
+	color: #3f0713 !important;
 }
-#promo img {
-	max-height: 500px;
-}
-#promo .card {
-	height: fit-content;
-	width: auto;
-	background-color: #ff5d5d !important;
-}
-
 /* responsiveness */
 
 /* ======== Agent/Faqs/Contact ======== */
 #agent .agent{
-	background-image: url(/assets/img/agent/agent1.png);
+	background-image: url(/assets/img/agent/agent.png);
 	background-size: cover;
 }
 .agent-primary {
