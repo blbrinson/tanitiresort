@@ -6,14 +6,13 @@
 .section-title {
 	color: #3f0713;
 }
-
-
-
-
+h3 {
+	color: #3f0713;
+}
 /* ========================= Title 
 --------------------------------*/
 #title {
-	background-image : url(/assets/img/hero/index.png);
+	background-image : url(/assets/img/hero/promo.png);
 	height: 100vh;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -21,8 +20,6 @@
 #title h1 {
 	color: #fff9b2;
 }
-
-
 /* ================ Navigation bar 
 --------------------------------*/
 #title-nav {
@@ -68,99 +65,32 @@
         justify-content: space-around;
     }	
 }
-
 @media (max-width: 575px) {
 	#title h1 {
 		font-size: xx-large;
 	}
 }
-
-
-/* ======== About section ========
+/* ==================== Promotions
 --------------------------------*/
-#about {
+#promo {
 	background-color: #ff5d5d;
 }
-#about p {
-	color: #fff9b2;
-	font-size: 1rem;
-}
-#about h3 {
-	color: #3f0713;
-}
 
-
-/* responsiveness */
-@media (max-width: 575px) {
-	#about img {
-		width: 75%;
-		margin-left: 12.5%;
-	}
-	#about p{
-		font-size: 1.2rem;
-	}
-	#about h3 {
-		width: 75%;
-		margin-left: 12.5%;
-	}
+#promo p {
+	color:#fff9b2;
 }
-
-
-/* ======== Lodging ======== 
----------------------------*/
-#lodging {
-	background-color: #ecac5d;
+#promo img {
+	max-height: 500px;
 }
-#lodging h2 {
-	color: #fff9b2;
-}
-#lodging p {
-	color: #3f0713;
-}
-#lodging .btn-primary {
-	background-color:#fff9b2 !important;
-	color: #3f0713;
-}
-#lodging .btn-primary:hover{
-background-color: #ff5d5d !important;
-}
-
-/* ====== Transportation ======= 
--------------------------------*/
-#transportation h2 {
-	color: #ecac5d;
-}
-#transportation .btn-primary {
-	background-color:#fff9b2 !important;
-	color: #3f0713;
-}
-#transportation .btn-primary:hover{
-	background-color: #ecac5d !important;
-}
-
-/* === Food and Entertainment ===
---------------------------------*/
-#food-ent {
-	background-color: #ecac5d;
-}
-#food-ent h2 {
-	color: #fff9b2;
-}
-
-#food-ent p {
-	color: #3f0713;
-}
-#food-ent .btn-primary {
-	background-color:#fff9b2 !important;
-	color: #3f0713;
-}
-#food-ent .btn-primary:hover{
+#promo .card {
+	height: fit-content;
+	width: auto;
 	background-color: #ff5d5d !important;
 }
 
-/* ======== Agent/Faqs/contact ======== */
-#agent {
-}
+/* responsiveness */
+
+/* ======== Agent/Faqs/Contact ======== */
 #agent .agent{
 	background-image: url(/assets/img/agent/agent1.png);
 	background-size: cover;
