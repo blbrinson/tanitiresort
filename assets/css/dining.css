@@ -6,23 +6,20 @@
 .section-title {
 	color: #3f0713;
 }
-
-
-
-
+h3 {
+	color: #3f0713;
+}
 /* ========================= Title 
 --------------------------------*/
 #title {
-	background-image : url(/assets/img/hero/index.png);
+	background-image : url(/assets/img/hero/dining.png);
 	height: 100vh;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 #title h1 {
-	color: #fff9b2;
+	color: #fff;
 }
-
-
 /* ================ Navigation bar 
 --------------------------------*/
 #title-nav {
@@ -68,101 +65,57 @@
         justify-content: space-around;
     }	
 }
-
 @media (max-width: 575px) {
 	#title h1 {
 		font-size: xx-large;
 	}
 }
-
-
-/* ======== About section ========
+/* =========== Local Fish and Rice
 --------------------------------*/
-#about {
-	background-color: #ff5d5d;
+#fish-rice p {
+	color: #ff5d5d;
 }
-#about p {
-	color: #fff9b2;
-	font-size: 1rem;
+/* responsiveness */
+/* ================ American Style
+--------------------------------*/
+#american {
+	background-color: #ecac5d;
 }
-#about h3 {
-	color: #3f0713;
+#american p {
+	color: #ff5d5d;
+	font-size: 2rem;
 }
-
 
 /* responsiveness */
-@media (max-width: 575px) {
-	#about img {
-		width: 75%;
-		margin-left: 12.5%;
-	}
-	#about p{
-		font-size: 1.2rem;
-	}
-	#about h3 {
-		width: 75%;
-		margin-left: 12.5%;
-	}
-}
 
-
-/* ======== Lodging ======== 
----------------------------*/
-#lodging {
-	background-color: #ecac5d;
-}
-#lodging h2 {
-	color: #fff9b2;
-}
-#lodging p {
-	color: #3f0713;
-}
-#lodging .btn-primary {
-	background-color:#fff9b2 !important;
-	color: #3f0713;
-}
-#lodging .btn-primary:hover{
-background-color: #ff5d5d !important;
-}
-
-/* ====== Transportation ======= 
--------------------------------*/
-#transportation h2 {
-	color: #ecac5d;
-}
-#transportation .btn-primary {
-	background-color:#fff9b2 !important;
-	color: #3f0713;
-}
-#transportation .btn-primary:hover{
-	background-color: #ecac5d !important;
-}
-
-/* === Food and Entertainment ===
+/* =============== Pan-Asian Style
 --------------------------------*/
-#food-ent {
-	background-color: #ecac5d;
-}
-#food-ent h2 {
-	color: #fff9b2;
+#pan-asian p {
+	color: #ff5d5d;
+	font-size: 2rem;
 }
 
-#food-ent p {
-	color: #3f0713;
-}
-#food-ent .btn-primary {
-	background-color:#fff9b2 !important;
-	color: #3f0713;
-}
-#food-ent .btn-primary:hover{
-	background-color: #ff5d5d !important;
+/* responsiveness */
+/* ========= Grocery & Convenience
+--------------------------------*/
+#grocery {
+	background-color: #ff5d5d;
 }
 
-/* ======== Agent/Faqs/contact ======== */
-#agent {
+#grocery h3 {
+	color: #fff;
 }
+
+#grocery p {
+	color:#fff9b2;
+	font-size: 2rem;
+}
+
+/* responsiveness */
+
+/* ======== Agent/Faqs/Contact ======== */
 #agent .agent{
-	background-image: url(/assets/img/agent/agent1.png);
+	background-image: url(/assets/img/agent/agent2.png);
 	background-size: cover;
 }
 .agent-primary {
