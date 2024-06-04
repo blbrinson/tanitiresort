@@ -1,25 +1,26 @@
-/* ===================== Home page  
+/* ========================== Body  
 --------------------------------*/
 * {
 	font-family: "Raleway";
 }
-.section-title {
+h3 {
 	color: #3f0713;
 }
-
-
+.desc {
+	color: #3f0713 !important;
+}
 
 
 /* ========================= Title 
 --------------------------------*/
 #title {
-	background-image : url(/assets/img/hero/index.png);
+	background-image : url(/assets/img/hero/experiences.png);
 	height: 100vh;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 #title h1 {
-	color: #fff9b2;
+	color: #fff;
 }
 
 
@@ -74,95 +75,48 @@
 		font-size: xx-large;
 	}
 }
-
-
-/* ======== About section ========
+/* ======================== Nature
 --------------------------------*/
-#about {
-	background-color: #ff5d5d;
-}
-#about p {
-	color: #fff9b2;
-	font-size: 1rem;
-}
-#about h3 {
-	color: #3f0713;
-}
-
-
-/* responsiveness */
-@media (max-width: 575px) {
-	#about img {
-		width: 75%;
-		margin-left: 12.5%;
-	}
-	#about p{
-		font-size: 1.2rem;
-	}
-	#about h3 {
-		width: 75%;
-		margin-left: 12.5%;
-	}
-}
-
-
-/* ======== Lodging ======== 
----------------------------*/
-#lodging {
-	background-color: #ecac5d;
-}
-#lodging h2 {
-	color: #fff9b2;
-}
-#lodging p {
-	color: #3f0713;
-}
-#lodging .btn-primary {
-	background-color:#fff9b2 !important;
-	color: #3f0713;
-}
-#lodging .btn-primary:hover{
-background-color: #ff5d5d !important;
-}
-
-/* ====== Transportation ======= 
--------------------------------*/
-#transportation h2 {
+#nature p {
 	color: #ecac5d;
 }
-#transportation .btn-primary {
-	background-color:#fff9b2 !important;
-	color: #3f0713;
-}
-#transportation .btn-primary:hover{
-	background-color: #ecac5d !important;
-}
-
-/* === Food and Entertainment ===
+/* responsiveness */
+/* ======================= Indoors
 --------------------------------*/
-#food-ent {
-	background-color: #ecac5d;
+#indoors {
+	background-color: #ff5d5d;
 }
-#food-ent h2 {
+#indoors h3 {
+	color: #fff;
+}
+#indoors p {
 	color: #fff9b2;
 }
 
-#food-ent p {
-	color: #3f0713;
-}
-#food-ent .btn-primary {
-	background-color:#fff9b2 !important;
-	color: #3f0713;
-}
-#food-ent .btn-primary:hover{
-	background-color: #ff5d5d !important;
+/* responsiveness */
+/* ====================== Outdoors
+--------------------------------*/
+#outdoors p {
+	color: #ecac5d;
 }
 
-/* ======== Agent/Faqs/contact ======== */
-#agent {
+/* responsiveness */
+/* =================== Coming Soon
+--------------------------------*/
+#golf {
+	background-image : url(/assets/img/hero/golf-course.png);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
+#title h1 {
+	color: #fff;
+}
+/* responsiveness */
+
+/* ======== Agent/Faqs/Contact ======== */
 #agent .agent{
-	background-image: url(/assets/img/agent/agent1.png);
+	background-image: url(/assets/img/agent/agent2.png);
 	background-size: cover;
 }
 .agent-primary {
@@ -222,4 +176,3 @@ color: #3f0713;
 #707070;
 #ecac5d;
 */
-
