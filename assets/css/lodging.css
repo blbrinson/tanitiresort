@@ -1,4 +1,4 @@
-/* ===================== Home page  
+/* =============================== Body 
 --------------------------------*/
 * {
 	font-family: "Raleway";
@@ -10,7 +10,7 @@
 
 
 
-/* ========================= Title 
+/* =============================== Title 
 --------------------------------*/
 #title {
 	background-image : url(/assets/img/hero/lodging.png);
@@ -23,7 +23,7 @@
 }
 
 
-/* ================ Navigation bar 
+/* =============================== Navigation bar 
 --------------------------------*/
 #title-nav {
 	background-color: #ecac5d;
@@ -79,7 +79,7 @@
 }
 
 
-/* ======================= Resorts
+/* =============================== Resorts
 --------------------------------*/
 #resorts h1 {
  	color: #3f0713;
@@ -90,7 +90,7 @@
 #resorts img {
 	min-width: 300px;
 }
-/* =========================== BNB
+/* =============================== BNB
 --------------------------------*/
 #bnb {
 	background-color: #ecac5d;
@@ -98,7 +98,7 @@
 #bnb h3 {
 	color: #fff !important;
 }
-/* ================== Beach Houses
+/* =============================== Beach Houses
 --------------------------------*/
 #beach h3 {
 	color: #ff5d5d !important;
@@ -106,7 +106,7 @@
 #beach img {
 	min-width: 300px;
 }
-/* ================ Private Houses
+/* =============================== Private Houses
 --------------------------------*/
 #privacy {
 	background-color: #ecac5d;
@@ -115,7 +115,8 @@
 	color: #fff !important;
 }
 
-/* ======== Agent/Faqs/contact ======== */
+/* =============================== Agent/Faqs/contact 
+--------------------------------*/
 #agent{
 	background-image: url(/assets/img/agent/agent3.png);
 	background-size: cover;
@@ -158,7 +159,8 @@
 
 /* responsiveness */
 
-/* ======== Footer ======== */
+/* =============================== Footer
+--------------------------------*/
 #footer {
 	background-color: #ff5d5d;
 }
