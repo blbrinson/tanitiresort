@@ -1,4 +1,4 @@
-/* ===================== Body  
+/* =============================== Body  
 --------------------------------*/
 * {
 	font-family: "Raleway";
@@ -6,8 +6,7 @@
 .section-title {
 	color: #3f0713;
 }
-
-/* ========================= Title 
+/* =============================== Title 
 --------------------------------*/
 #title {
 	background-image : url(/assets/img/hero/about.png);
@@ -18,9 +17,7 @@
 #title h1 {
 	color: #fff;
 }
-
-
-/* ================ Navigation bar 
+/* =============================== Navigation bar 
 --------------------------------*/
 #title-nav {
 	background-color: #ecac5d;
@@ -59,7 +56,6 @@
 	color: #ecac5d;
 }
 
-
 /* responsiveness */
 @media (min-width: 576px) {
     .navbar-expand-sm .navbar-collapse {
@@ -68,15 +64,12 @@
         justify-content: space-around;
     }	
 }
-
 @media (max-width: 575px) {
 	#title h1 {
 		font-size: xx-large;
 	}
 }
-
-
-/* ======================= Resorts
+/* =============================== Resorts
 --------------------------------*/
 #nature h1 {
  	color: #3f0713;
@@ -87,7 +80,7 @@
 #nature img {
 	min-width: 300px;
 }
-/* =========================== Indoors
+/* =============================== Indoors
 --------------------------------*/
 #indoor {
 	background-color: #ecac5d;
@@ -95,7 +88,7 @@
 #indoor h3 {
 	color: #fff !important;
 }
-/* ================== Outdoors
+/* =============================== Outdoors
 --------------------------------*/
 #outdoors h3 {
 	color: #ff5d5d !important;
@@ -103,7 +96,7 @@
 #outdoors img {
 	min-width: 300px;
 }
-/* ================ Locals
+/* =============================== Locals
 --------------------------------*/
 #locals {
 	background-color: #ecac5d;
@@ -111,8 +104,8 @@
 #locals h3 {
 	color: #fff !important;
 }
-
-/* ======== Agent/Faqs/contact ======== */
+/* =============================== Agent/Faqs/contact
+--------------------------------*/
 #agent{
 	background-image: url(/assets/img/agent/agent1.png);
 	background-size: cover;
@@ -152,10 +145,8 @@
 .disclaimer {
 	font-size: xx-small;
 }
-
-/* responsiveness */
-
-/* ======== Footer ======== */
+/* =============================== Footer
+--------------------------------*/
 #footer {
 	background-color: #ff5d5d;
 }
