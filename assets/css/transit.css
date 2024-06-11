@@ -1,4 +1,4 @@
-/* ===================== Home page  
+/* =============================== Body 
 --------------------------------*/
 * {
 	font-family: "Raleway";
@@ -6,8 +6,7 @@
 .section-title {
 	color: #3f0713;
 }
-
-/* ========================= Title 
+/* =============================== Title 
 --------------------------------*/
 .background-image {
 	background-image : url(/assets/img/hero/transit.png);
@@ -40,8 +39,7 @@
 		background-image: url(/assets/img/hero/transit4.png);
 	}
 }
-
-/* ================ Navigation bar 
+/* =============================== Navigation bar 
 --------------------------------*/
 #title-nav {
 	background-color: #ecac5d;
@@ -89,14 +87,12 @@
         justify-content: space-around;
     }	
 }
-
 @media (max-width: 575px) {
 	#title h1 {
 		font-size: xx-large;
 	}
 }
-
-/* ======== About section ========
+/* =============================== About section
 --------------------------------*/
 #about {
 	background-color: #ff5d5d;
@@ -128,9 +124,8 @@
 		height: 576px;
 	}
 }
-
-
-/* ======== Agent/Faqs/contact ======== */
+/* =============================== Agent/Faqs/contact
+--------------------------------*/
 #agent{
 	background-image: url(/assets/img/agent/agent3.png);
 	background-size: cover;
@@ -170,10 +165,8 @@
 .disclaimer {
 	font-size: xx-small;
 }
-
-/* responsiveness */
-
-/* ======== Footer ======== */
+/* =============================== Footer
+--------------------------------*/
 #footer {
 	background-color: #ff5d5d;
 }

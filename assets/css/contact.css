@@ -1,4 +1,4 @@
-/* ========================== Body  
+/* =============================== Body  
 --------------------------------*/
 * {
 	font-family: "Raleway";
@@ -9,7 +9,7 @@
 h3 {
 	color: #3f0713;
 }
-/* ========================= Title 
+/* =============================== Title 
 --------------------------------*/
 #title {
 	background-image : url(/assets/img/hero/contact.png);
@@ -23,7 +23,7 @@ h3 {
 #title p {
 	color: #ecac5d;
 }
-/* ================ Navigation bar 
+/* =============================== Navigation bar 
 --------------------------------*/
 #title-nav {
 	background-color: #ecac5d;
@@ -62,7 +62,6 @@ h3 {
 	color: #ecac5d;
 }
 
-
 /* responsiveness */
 @media (min-width: 576px) {
     .navbar-expand-sm .navbar-collapse {
@@ -71,15 +70,12 @@ h3 {
         justify-content: space-around;
     }	
 }
-
 @media (max-width: 575px) {
 	#title h1 {
 		font-size: xx-large;
 	}
 }
-
-
-/* ================== Contact Form
+/* =============================== Contact Form
 --------------------------------*/
 #contact {
 	background-color: #ecac5d;
@@ -106,10 +102,8 @@ h3 {
 	color: #3f0713;
 	opacity: 50%;
 }
-
-
-/* responsiveness */
-/* ======== Agent/Faqs/contact ======== */
+/* =============================== Agent/Faqs/contact
+--------------------------------*/
 #agent{
 	background-image: url(/assets/img/agent/agent.png);
 	background-size: cover;
@@ -149,10 +143,8 @@ h3 {
 .disclaimer {
 	font-size: xx-small;
 }
-
-/* responsiveness */
-
-/* ======== Footer ======== */
+/* =============================== Footer
+--------------------------------*/
 #footer {
 	background-color: #ff5d5d;
 }
