@@ -44,8 +44,8 @@
 	color: #3f0713;
 	font-weight: bold;
 }
-#title .active{
-	color: #fff9b2;
+#title .active {
+	background-color: #ff5d5d;
 }
 #title .btn-outline-dark {
 	border-color: #3f0713;
