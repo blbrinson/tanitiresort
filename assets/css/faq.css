@@ -12,7 +12,7 @@ h3 {
 /* ========================= Title 
 --------------------------------*/
 #title {
-	background-image : url(/assets/img/hero/promo.png);
+	background-image : url(/assets/img/hero/faq.png);
 	height: 100vh;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -70,29 +70,16 @@ h3 {
 		font-size: xx-large;
 	}
 }
-/* ==================== Promotions
+/* ========================== FAQs
 --------------------------------*/
-#promo {
-	background-color: #ff5d5d;
+#faq h2 {
+	color:#ff5d5d;
 }
-
-#promo p {
-	color:#fff9b2;
-}
-#promo img {
-	max-height: 500px;
-}
-#promo .card {
-	height: fit-content;
-	width: auto;
-	background-color: #ff5d5d !important;
-}
-
 /* responsiveness */
 
-/* ======== Agent/Faqs/Contact ======== */
-#agent .agent{
-	background-image: url(/assets/img/agent/agent1.png);
+/* ======== Agent/Faqs/contact ======== */
+#agent{
+	background-image: url(/assets/img/agent/agent.png);
 	background-size: cover;
 }
 .agent-primary {
@@ -103,6 +90,7 @@ h3 {
 }
 #agent p {
 	color: #3f0713;
+	margin: 50px 0px;
 }
 #email {
 	color: #ff5d5d !important;
@@ -130,26 +118,27 @@ h3 {
 	font-size: xx-small;
 }
 
+/* responsiveness */
+
 /* ======== Footer ======== */
 #footer {
 	background-color: #ff5d5d;
 }
-#footer h5 {
-	color: #fff9b2;
+#footer .link-primary {
+	color: #fff9b2 !important;
+}
+#footer .link-primary:hover{
+	color: #ecac5d!important;
 }
 .link-secondary{
 	color: #3f0713 !important;
 }
+.link-secondary:hover{
+	color: #fff9b2 !important;
+}
 #footer small {
 	color: #fff !important;
 }
-
-
-/* colors involved */
-/* color: #ff5d5d;
-color: #fff9b2; 
-color: #3f0713;
-#707070;
-#ecac5d;
-*/
-
+.f-title {
+	color: #fff9b2;
+}

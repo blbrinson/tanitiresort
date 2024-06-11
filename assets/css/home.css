@@ -1,4 +1,4 @@
-/* ===================== Home page  
+/* ========================== Body  
 --------------------------------*/
 * {
 	font-family: "Raleway";
@@ -162,9 +162,7 @@ background-color: #ff5d5d !important;
 }
 
 /* ======== Agent/Faqs/contact ======== */
-#agent {
-}
-#agent .agent{
+#agent{
 	background-image: url(/assets/img/agent/agent1.png);
 	background-size: cover;
 }
@@ -176,6 +174,7 @@ background-color: #ff5d5d !important;
 }
 #agent p {
 	color: #3f0713;
+	margin: 50px 0px;
 }
 #email {
 	color: #ff5d5d !important;
@@ -203,26 +202,29 @@ background-color: #ff5d5d !important;
 	font-size: xx-small;
 }
 
+/* responsiveness */
+
 /* ======== Footer ======== */
 #footer {
 	background-color: #ff5d5d;
 }
-#footer h5 {
-	color: #fff9b2;
+#footer .link-primary {
+	color: #fff9b2 !important;
+}
+#footer .link-primary:hover{
+	color: #ecac5d!important;
 }
 .link-secondary{
 	color: #3f0713 !important;
 }
+.link-secondary:hover{
+	color: #fff9b2 !important;
+}
 #footer small {
 	color: #fff !important;
 }
+.f-title {
+	color: #fff9b2;
+}
 
-
-/* colors involved */
-/* color: #ff5d5d;
-color: #fff9b2; 
-color: #3f0713;
-#707070;
-#ecac5d;
-*/
 
