@@ -6,10 +6,6 @@
 .section-title {
 	color: #3f0713;
 }
-
-
-
-
 /* =============================== Title 
 --------------------------------*/
 #title {
@@ -21,8 +17,6 @@
 #title h1 {
 	color: #fff;
 }
-
-
 /* =============================== Navigation bar 
 --------------------------------*/
 #title-nav {
@@ -61,8 +55,6 @@
 	background-color: #ff5d5d;
 	color: #ecac5d;
 }
-
-
 /* responsiveness */
 @media (min-width: 576px) {
     .navbar-expand-sm .navbar-collapse {
@@ -71,14 +63,11 @@
         justify-content: space-around;
     }	
 }
-
 @media (max-width: 575px) {
 	#title h1 {
 		font-size: xx-large;
 	}
 }
-
-
 /* =============================== Resorts
 --------------------------------*/
 #resorts h1 {
@@ -114,7 +103,6 @@
 #privacy h3 {
 	color: #fff !important;
 }
-
 /* =============================== Agent/Faqs/contact 
 --------------------------------*/
 #agent{
@@ -156,9 +144,6 @@
 .disclaimer {
 	font-size: xx-small;
 }
-
-/* responsiveness */
-
 /* =============================== Footer
 --------------------------------*/
 #footer {
