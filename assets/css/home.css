@@ -1,4 +1,4 @@
-/* ========================== Body  
+/* =============================== Body  
 --------------------------------*/
 * {
 	font-family: "Raleway";
@@ -6,11 +6,7 @@
 .section-title {
 	color: #3f0713;
 }
-
-
-
-
-/* ========================= Title 
+/* =============================== Title 
 --------------------------------*/
 #title {
 	background-image : url(/assets/img/hero/index.png);
@@ -21,9 +17,7 @@
 #title h1 {
 	color: #fff9b2;
 }
-
-
-/* ================ Navigation bar 
+/* =============================== Navigation bar 
 --------------------------------*/
 #title-nav {
 	background-color: #ecac5d;
@@ -61,8 +55,6 @@
 	background-color: #ff5d5d;
 	color: #ecac5d;
 }
-
-
 /* responsiveness */
 @media (min-width: 576px) {
     .navbar-expand-sm .navbar-collapse {
@@ -71,15 +63,12 @@
         justify-content: space-around;
     }	
 }
-
 @media (max-width: 575px) {
 	#title h1 {
 		font-size: xx-large;
 	}
 }
-
-
-/* ======== About section ========
+/* =============================== About section 
 --------------------------------*/
 #about {
 	background-color: #ff5d5d;
@@ -91,8 +80,6 @@
 #about h3 {
 	color: #3f0713;
 }
-
-
 /* responsiveness */
 @media (max-width: 575px) {
 	#about img {
@@ -107,10 +94,8 @@
 		margin-left: 12.5%;
 	}
 }
-
-
-/* ======== Lodging ======== 
----------------------------*/
+/* =============================== Lodging 
+--------------------------------*/
 #lodging {
 	background-color: #ecac5d;
 }
@@ -127,8 +112,7 @@
 #lodging .btn-primary:hover{
 background-color: #ff5d5d !important;
 }
-
-/* ====== Transportation ======= 
+/* =============================== Transportation 
 -------------------------------*/
 #transportation h2 {
 	color: #ecac5d;
@@ -140,8 +124,7 @@ background-color: #ff5d5d !important;
 #transportation .btn-primary:hover{
 	background-color: #ecac5d !important;
 }
-
-/* === Food and Entertainment ===
+/* =============================== Food and Entertainment
 --------------------------------*/
 #food-ent {
 	background-color: #ecac5d;
@@ -149,7 +132,6 @@ background-color: #ff5d5d !important;
 #food-ent h2 {
 	color: #fff9b2;
 }
-
 #food-ent p {
 	color: #3f0713;
 }
@@ -160,8 +142,8 @@ background-color: #ff5d5d !important;
 #food-ent .btn-primary:hover{
 	background-color: #ff5d5d !important;
 }
-
-/* ======== Agent/Faqs/contact ======== */
+/* =============================== Agent/Faqs/contact 
+--------------------------------*/
 #agent{
 	background-image: url(/assets/img/agent/agent1.png);
 	background-size: cover;
@@ -201,10 +183,8 @@ background-color: #ff5d5d !important;
 .disclaimer {
 	font-size: xx-small;
 }
-
-/* responsiveness */
-
-/* ======== Footer ======== */
+/* =============================== Footer 
+--------------------------------*/
 #footer {
 	background-color: #ff5d5d;
 }
