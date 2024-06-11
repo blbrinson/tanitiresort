@@ -40,6 +40,9 @@
 #title .dropdown-item {
 	color: #3f0713;
 }
+#title .dropdown-menu :hover {
+	background-color: #fff9b2;
+}
 #title .nav-link{
 	color: #3f0713;
 	font-weight: bold;

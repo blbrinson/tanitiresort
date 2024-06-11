@@ -40,6 +40,9 @@ h3 {
 #title .dropdown-item {
 	color: #3f0713;
 }
+#title .dropdown-menu :hover {
+	background-color: #fff9b2;
+}
 #title .nav-link{
 	color: #3f0713;
 	font-weight: bold;
@@ -55,6 +58,24 @@ h3 {
 	background-color: #ff5d5d;
 	color: #ecac5d;
 }
+
+
+/* responsiveness */
+@media (min-width: 576px) {
+    .navbar-expand-sm .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+        justify-content: space-around;
+    }	
+}
+
+@media (max-width: 575px) {
+	#title h1 {
+		font-size: xx-large;
+	}
+}
+
+
 
 
 /* responsiveness */
