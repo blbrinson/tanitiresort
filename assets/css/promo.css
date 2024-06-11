@@ -1,4 +1,4 @@
-/* ===================== Home page  
+/* =============================== Body  
 --------------------------------*/
 * {
 	font-family: "Raleway";
@@ -9,7 +9,7 @@
 h3 {
 	color: #3f0713;
 }
-/* ========================= Title 
+/* =============================== Title
 --------------------------------*/
 #title {
 	background-image : url(/assets/img/hero/promo.png);
@@ -20,7 +20,7 @@ h3 {
 #title h1 {
 	color: #fff;
 }
-/* ================ Navigation bar 
+/* =============================== Navigation bar 
 --------------------------------*/
 #title-nav {
 	background-color: #ecac5d;
@@ -58,26 +58,6 @@ h3 {
 	background-color: #ff5d5d;
 	color: #ecac5d;
 }
-
-
-/* responsiveness */
-@media (min-width: 576px) {
-    .navbar-expand-sm .navbar-collapse {
-        display: flex !important;
-        flex-basis: auto;
-        justify-content: space-around;
-    }	
-}
-
-@media (max-width: 575px) {
-	#title h1 {
-		font-size: xx-large;
-	}
-}
-
-
-
-
 /* responsiveness */
 @media (min-width: 576px) {
     .navbar-expand-sm .navbar-collapse {
@@ -91,19 +71,17 @@ h3 {
 		font-size: xx-large;
 	}
 }
-/* ========================= Promo
+/* =============================== Promo
 --------------------------------*/
 #promo {
 	background-color: #ff5d5d;
 }
-
 #faq p {
 	color: #3f0713 !important;
 }
 #promo .card {
 	height: fit-content;
 }
-
 /* responsiveness */
 @media (min-width: 767px) {
 	#promo .card {
@@ -125,8 +103,8 @@ h3 {
 		height: 782px;
 	}
 }
-
-/* ======== Agent/Faqs/Contact ======== */
+/* =============================== Agent/Faqs/Contact
+--------------------------------*/
 #agent{
 	background-image: url(/assets/img/agent/agent1.png);
 	background-size: cover;
@@ -166,10 +144,8 @@ h3 {
 .disclaimer {
 	font-size: xx-small;
 }
-
-/* responsiveness */
-
-/* ======== Footer ======== */
+/* =============================== Footer
+--------------------------------*/
 #footer {
 	background-color: #ff5d5d;
 }
