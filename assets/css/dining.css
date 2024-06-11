@@ -1,4 +1,4 @@
-/* ===================== Home page  
+/* =============================== Body 
 --------------------------------*/
 * {
 	font-family: "Raleway";
@@ -9,7 +9,7 @@
 h3 {
 	color: #3f0713;
 }
-/* ========================= Title 
+/* =============================== Title 
 --------------------------------*/
 #title {
 	background-image : url(/assets/img/hero/dining.png);
@@ -20,7 +20,7 @@ h3 {
 #title h1 {
 	color: #fff;
 }
-/* ================ Navigation bar 
+/* =============================== Navigation bar 
 --------------------------------*/
 #title-nav {
 	background-color: #ecac5d;
@@ -59,7 +59,6 @@ h3 {
 	color: #ecac5d;
 }
 
-
 /* responsiveness */
 @media (min-width: 576px) {
     .navbar-expand-sm .navbar-collapse {
@@ -68,21 +67,17 @@ h3 {
         justify-content: space-around;
     }	
 }
-
 @media (max-width: 575px) {
 	#title h1 {
 		font-size: xx-large;
 	}
 }
-
-
-/* =========== Local Fish and Rice
+/* =============================== Local Fish and Rice
 --------------------------------*/
 #fish-rice p {
 	color: #ff5d5d;
 }
-/* responsiveness */
-/* ================ American Style
+/* =============================== American Style
 --------------------------------*/
 #american {
 	background-color: #ecac5d;
@@ -91,35 +86,26 @@ h3 {
 	color: #ff5d5d;
 	font-size: 2rem;
 }
-
-/* responsiveness */
-
-/* =============== Pan-Asian Style
+/* =============================== Pan-Asian Style
 --------------------------------*/
 #pan-asian p {
 	color: #ff5d5d;
 	font-size: 2rem;
 }
-
-/* responsiveness */
-/* ========= Grocery & Convenience
+/* =============================== Grocery & Convenience
 --------------------------------*/
 #grocery {
 	background-color: #ff5d5d;
 }
-
 #grocery h3 {
 	color: #fff;
 }
-
 #grocery p {
 	color:#fff9b2;
 	font-size: 2rem;
 }
-
-/* responsiveness */
-
-/* ======== Agent/Faqs/contact ======== */
+/* =============================== Agent/Faqs/contact
+--------------------------------*/
 #agent{
 	background-image: url(/assets/img/agent/agent2.png);
 	background-size: cover;
@@ -159,10 +145,8 @@ h3 {
 .disclaimer {
 	font-size: xx-small;
 }
-
-/* responsiveness */
-
-/* ======== Footer ======== */
+/* =============================== Footer 
+--------------------------------*/
 #footer {
 	background-color: #ff5d5d;
 }
