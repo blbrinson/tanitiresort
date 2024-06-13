@@ -9,7 +9,7 @@
 /* =============================== Title 
 --------------------------------*/
 #title {
-	background-image : url(/assets/img/hero/index.png);
+	background-image : url(./assets/img/hero/index.png);
 	height: 100vh;
 	background-size: cover;
 	background-repeat: no-repeat;
